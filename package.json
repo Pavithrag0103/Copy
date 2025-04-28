@@ -1,0 +1,20 @@
+{
+  "name": "rasengan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://Syneos-SSP@dev.azure.com/Syneos-SSP/Rasengan/_git/Rasengan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.1"
+  }
+}

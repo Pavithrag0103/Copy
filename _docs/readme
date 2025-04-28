@@ -1,0 +1,428 @@
+# ⚡ Rasengan – Automation Framework
+
+Rasengan is the centralized automation testing framework built using Playwright and TypeScript, designed to support scalable, cross-browser UI testing for web applications built with React, Svelte, and Oracle APEX.
+
+This framework is intended to be modular, extensible, and integrated into our CI/CD ecosystem. It is developer-friendly, with built-in support for fixtures, custom utilities, and Playwright’s powerful debugging tools.
+
+## Documentation
+
+If you want to know more about Playwright and Playwright/Test please visit:
+[Playwright Docs](https://playwright.dev/docs/intro)
+
+## Installation
+
+Pre-requisites:
+
+* Node.js ≥ 18
+* npm ≥ 8
+* macOS ≥ Big Sur / Windows / Linux
+* Git
+
+1. Clone this repository
+   `git clone https://Syneos-SSP@dev.azure.com/Syneos-SSP/Rasengan/_git/Rasengan`
+
+2. Install dependencies
+
+```bash
+# Install core dependencies
+npm install
+
+# Install supported browsers
+npx playwright install
+```
+
+3. Run all tests locally
+   `npm run test `
+
+If you dont get any issues at this point you are ready to use the Automation Framework
+
+## Usage
+
+This is an small test example:
+
+```typescript:
+// Import interfaces from playwright test
+import { expect } from '@playwright/test'
+
+// Use the test keyword to indicate you are creating a test and a proper description
+// Pass the fixture you want to work in, in this case is a page that come from Playwright but you can create your own fixtures
+test('basic test', async ({ page }) => {
+  // Start: Navigation to a specific URL
+  await page.goto('https://playwright.dev/')
+  // Arrange: Find locators
+  const title = page.locator('.navbar__inner .navbar__title')
+  // Assert: Test validation
+  await expect.soft(title, 'Some error message').toHaveText('Playwright')
+})
+```
+
+## Execute the tests
+
+Set the environment where the tests will be executed, then execute in the command line:
+
+```
+export ENV USER_EMAIL="YOUR_USER_EMAIL"
+```
+
+For executing all tests locally, execute:
+
+```bash
+npm run test
+# The previous command is configured in the package.json to execute:
+npx playwright test --config=playwright.config.ts
+```
+
+If you want to run a specific tests, you can use the scripts in the package.json:
+
+- `test`: Execute ui, visual and e2e tests in all browsers.
+- `test:e2e`: Execute e2e tests in all browsers.
+- `test:ui`: Execute ui tests in all browsers.
+- `test:visual`: Execute visual tests all browsers.
+- `test:api`: Execute the api tests.
+
+In the same way if you want to run those tests in a specific browser you can run the script adding `-- --project YOUR_BROWSER`:
+
+```
+npm run test:e2e -- --project Chrome
+```
+
+Other ways to run the tests:
+
+```bash
+# To run specific test files, specify the route of the tests:
+npx playwright test tests/TEST_CLASS.spec.ts --config=playwright.config.ts
+
+# Run a set of test files
+npx playwright test tests/TEST_CLASS_1/ tests/TEST_CLASS_2/
+
+# Run files that have KEY_1 or KEY_2 in the file name
+npx playwright test KEY_1 KEY_2
+
+# Run the test with the title
+npx playwright test -g "SOME_TITLE"
+
+# Run tests in headed browsers
+npx playwright test --headed
+
+# Run tests in a particular configuration (project)
+npx playwright test --project PROJECT
+# Or contains multiple projects:
+npx playwright test --project PROJECT1 PROJECT2
+
+# Run in debug mode with Playwright Inspector
+npx playwright test --debug
+
+# Run only the tests that contains a tag:
+npx playwright test --grep @YOUR_TAG
+# Or contains multiple tag:
+npx playwright test --grep "@TAG1|@TAG2"
+
+# Or if you want the opposite, you can skip the tests with a certain tag:
+npx playwright test --grep-invert @YOUR_TAG_SKIP
+```
+
+If you need help, you can execute:
+
+```bash
+npx playwright test --help
+```
+
+## Test Results
+
+### Reporters
+
+The easiest way to try out built-in reporters is to pass --reporter command line option.
+
+```bash
+# List reporter is default (except on CI where the dot reporter is default). It prints a line for each test being run.
+npx playwright test --reporter=list
+# Line reporter uses a single line to report last finished test, and prints failures when they occur.
+npx playwright test --reporter=line
+# HTML reporter produces a self-contained folder that contains report for the test run that can be served as a web page.
+npx playwright test --reporter=html
+# JSON reporter produces an object with all information about the test run and you need to set the PLAYWRIGHT_JSON_OUTPUT_NAME environment variable.
+PLAYWRIGHT_JSON_OUTPUT_NAME=results.json npx playwright test --reporter=json
+# JUnit reporter produces a JUnit-style xml report and you need to set the PLAYWRIGHT_JUNIT_OUTPUT_NAME environment variable.
+PLAYWRIGHT_JUNIT_OUTPUT_NAME=results.xml npx playwright test --reporter=junit
+```
+
+When you generate an HTML report, you can execute the command for reviewing it:
+
+```bash
+npx playwright show-report my-report
+```
+
+### Trace viewer
+
+To see a trace zip file, specify the route of the trace:
+`npx playwright show-trace test-results/TRACE_RESULT_DIR/trace.zip`
+
+With this trace you can see:
+
+- The list of actions Playwright performed on the left hand side. When you select an action you can see:
+  - Action snapshots.
+  - Action log.
+  - Source code location.
+  - Network log for this action in the properties pane.
+  - Rendered DOM snapshots associated with each action.
+- Screenshots: When tracing with the screenshots option turned on, each trace records screencast and renders it as a film strip and you can hover over it to see a magnified image
+- Snapshots​ When tracing with the snapshots option turned on, Playwright captures a set of complete DOM snapshots for each action.  
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+More information about Maintenance and Contribution: 
+
+### Metadata for test cases
+
+- Fail tests: Please reference the JIRA issue related as a `test.info().annotations` and after add `test.fail()`
+- Skip tests: Please reference a proper reason or ticket as a `test.info().annotations` and after add `test.skip()`
+- Tags: Every test should have a unique reference that allows to execute the specific test from the terminal or the ondemand job, for instance: `@TC001`, `@smoke`. Keep in mind that all the test should have an ID reference nevertheless can belong to a specific suite as smoke, regression and so on.
+
+## Execute analysis for the code style
+
+You have to set some rules about the code style in the file `.prettierrc`, or you can use the default rules. From those rules, you can verify your code style executing:
+`npm run prettier:check`
+In this way you can see any error or warning. For fixing those errors and warnings that can be fixed autocally, you can execute:
+`npm run prettier:write`.
+
+You can do an analysis with `eslint` executing:
+
+```bash
+npm run lint
+# that runs:
+eslint '**/*.{js,ts,tsx}' --quiet
+```
+
+And if you want to fix errors that can be fixed autocally, you can execute:
+`eslint '**/*.{js,ts,tsx}' --quiet --fix`
+
+
+## Playwright Tools
+
+Playwright has a [Debugging Tools](https://playwright.dev/docs/debug) which can help us to find the Selectors, run our test in a debug mode or review the details for a test execution.
+
+### Playwright Inspector
+
+[Playwright Inspector](https://playwright.dev/docs/debug#playwright-inspector) is a GUI tool that helps authoring and debugging Playwright scripts. With this tool you can:
+
+- Execute your scripts in debug mode.
+- Navigates step by step thought your scripts.
+- Review the logs during the execution of any step.
+- Record any actions that you do in the browser and later reproduce them.
+
+For execute the inspector, set the PWDEBUG environment variable to run your scripts in debug mode:
+
+```bash
+# You can debug all your test
+npx playwright test --debug
+
+# You can debug a specific test
+npx playwright test example --debug --config=playwright.config.ts
+```
+
+### Browser Developer Tools
+
+You can use browser developer tools in your own browser. Developer tools help to:
+
+- Inspect the DOM tree
+- See console logs during execution (or learn how to [read logs via API](https://playwright.dev/docs/verification#console-logs))
+- Check network activity and other developer tools features
+
+- Debugging Selectors​:
+  - You need to execute the Playwright Inspector
+  - Click the Explore button to hover over elements in the screen and click them to automatically generate selectors for those elements. To verify where selector points, paste it into the inspector input field.
+  - You can also use the API inside the Developer Tools Console of any browser.
+    - Open the Browser Developer Tools (macOS-Chrome: fn+12).
+    - Click the "Select an element in the page to inspect it" button to hover over elements in the screen and click them (macOS-Chrome: cmd+shift+c).
+    - Go to the console panel and use the playwright API:
+      - `playwright.$(selector)`: Highlight the first occurrence of the selector. This reflects how page.$ would see the page. (Ex: playwright.$('.auth-form >> text=Log in');)
+      - `playwright.$$(selector)`: Highlight all occurrences of the selector. This reflects how page.$$ would see the page. (Ex: playwright.$$('li >> text=John'))
+      - `playwright.inspect(selector)`: Inspect the selector in the Elements panel. (Ex: playwright.inspect('text=Log in'))
+      - `playwright.locator(selector)`: Highlight the first occurrence of the locator. (Ex: playwright.locator('.auth-form', { hasText: 'Log in' });)
+      - `playwright.selector(element)`: Generate a selector that points to the element. (Ex: playwright.selector($0))
+      - `playwright.clear()`: Clear existing highlights.
+
+### Test Generator: codegen
+
+Playwright has a [Test Generator](https://playwright.dev/docs/codegen) that comes with the ability to generate tests out of the box
+
+- Generate tests: Run `codegen` and perform actions in the browser. Playwright will generate the code for the user interactions. `codegen` will attempt to generate resilient text-based selectors:
+
+```bash
+npx playwright codegen demo.playwright.dev/todomvc
+```
+
+
+- Preserve authenticated state: Run `codegen` with:
+  - `--save-storage` to save cookies and localStorage at the end of the session. This is useful to separately record authentication step and reuse it later in the tests.
+  ```bash
+  npx playwright codegen --save-storage=auth.json
+  ```
+  When you exit to the page, you can see the json file in the project:
+  ```typescript:
+  {
+      "cookies": [],
+      "origins": [
+        {
+          "origin": "http://localhost:3000",
+          "localStorage": [
+            {
+              "name": "mock",
+              "value": "true"
+            },
+            {
+              "name": "jwtToken",
+              "value": "success"
+            },
+            {
+              "name": "i18nextLng",
+              "value": "en-US"
+            },
+            {
+              "name": "eventId",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+  ```
+  - `--load-storage` to consume previously loaded storage. This way, all cookies and localStorage will be restored, bringing most web apps to the authenticated state.
+  ```bash
+  npx playwright open --load-storage=auth.json 'localhost:3000/home'
+  npx playwright codegen --load-storage=auth.json 'localhost:3000/home'
+  # Perform actions in authenticated state.
+  ```
+
+## Abbreviations
+
+### Definition of web elements names
+
+| Web Element Type           | Prefix | Example          |
+| -------------------------- | ------ | ---------------- |
+| Animation button           | ani    | aniCart          |
+| Button                     | btn    | btnAddToBag      |
+| Check box                  | chk    | chkSize          |
+| Chevron                    | chv    | chvProtocol      |
+| Combo box                  | cbo    | cboEnglish       |
+| Common dialog              | dlg    | dlgFileOpen      |
+| Data grid                  | dgd    | dgdTitles        |
+| Data List                  | dbl    | dblPublisher     |
+| Date picker                | dtp    | dtpPublished     |
+| Directory list box         | dir    | dirSource        |
+| Drive list box             | drv    | drvTarget        |
+| Dropdown List / Select tag | ddl    | ddlDay           |
+| File list box              | fil    | filSource        |
+| Footer                     | fot    | fotPage          |
+| Form                       | frm    | frmLogin         |
+| Frame                      | fra    | fraLanguage      |
+| Gauge                      | gau    | gauBattery       |
+| Graph                      | gra    | graPurchases     |
+| Group push button          | gpb    | gpbMovements     |
+| Grid                       | grd    | grdMode          |
+| Header                     | hdr    | hdrFilter        |
+| Horizontal scroll bar      | hsb    | hsbDetails       |
+| Image                      | img    | imgProfile       |
+| Image List                 | iml    | imlProducts      |
+| Label                      | lbl    | lblColors        |
+| Line                       | lin    | linSeparator     |
+| Links / Anchor tags        | lnk    | lnkForgotPwd     |
+| List box                   | lst    | lstPolicyCodes   |
+| List View                  | lvw    | lvwProducts      |
+| Menu                       | mnu    | mnuFileOpen      |
+| Messages                   | msg    | msgError         |
+| Paginator                  | pag    | pgrFilter        |
+| Panel / Filed set          | pnl    | pnlGroup         |
+| Picture                    | pic    | picLogo          |
+| Picture clip               | clp    | clpProducts      |
+| ProgressBar                | prg    | prgLoadFile      |
+| Radio button / group       | rdo    | rdoGender        |
+| RichTextBox                | rtf    | rtfReport        |
+| Shape                      | shp    | shpLogo          |
+| Slider                     | sld    | sldScale         |
+| Spinner                    | spn    | spnPages         |
+| StatusBar                  | sbr    | staDateTime      |
+| Table                      | tbl    | tblSizes         |
+| TabStrip                   | tab    | tabOptions       |
+| Text Area                  | txa    | txaDescription   |
+| Text box                   | txt    | txtPassword      |
+| Thumbnail                  | thb    | thbProductImages |
+| Timer                      | tmr    | tmrAlarm         |
+| Toolbar                    | tlb    | tlbActions       |
+| TreeView                   | tre    | treOrganization  |
+| Vertical scroll bar        | vsb    | vsbProducts      |
+| 3D Panel                   | pnl    | pnlProduct       |
+
+### Definition of actions names
+
+| Action            | Prefix | Example        |
+| ----------------- | ------ | -------------- |
+| Click             | clk    | clkSigin       |
+| Get a value       | get    | getAllProducts |
+| Go to a page      | goTo   | goToHomePage   |
+| Select value from | select | selectYear     |
+| Type              | set    | setEmail       |
+
+### Naming conventions with data type
+
+| Data Type     | Prefix | Example         |
+| ------------- | ------ | --------------- |
+| Boolean       | bln    | blnStatus       |
+| Date and time | dtm    | dtmFrom         |
+| Error         | err    | errInitBrowsers |
+| Long          | lng    | lngDistance     |
+| Integer       | int    | intCount        |
+| String        | str    | strEmployeeName |
+| Number        | num    | numProducts     |
+
+## Visual Testing
+
+### Update snapshots
+
+When you need to update the snapshots related with your Visual Tests, you should execute in the command line:
+
+```
+npx playwright test tests/visual/ --config=playwright.config.ts --update-snapshots
+```
+
+The images are update taking into account the machine where the command is executed, so if you need to update the images for a linux machine first of all you should run the image for this machine:
+
+```
+docker run --rm --network host -v $(pwd):/work/ -w /work/ -it mcr.microsoft.com/playwright:v${PLAYWRIGHT_VERSION}-focal /bin/bash
+```
+
+And later, inside the machine execute the previous command.
+
+### Element masking
+
+Some tests contain data that may include sensible information or dynamic images that may change over the course of the visual tests.
+
+You can specify a 'mask' (an image that is superimposed on top of the elements when doing the comparison), then you could block that part of the image for the comparison to match, since that area would be the same (or ignored).
+
+For this you can use the option given by playwright in v1.20.0 to mask the data you want to block:
+
+mask: Locator[]
+
+This is a small example:
+
+```typescript:
+await page.screenshot({
+   mask: [
+    page.locator('.my-date-element'),
+  ],
+});
+```
+
+This option masks given elements, overlaying them with pink #FF00FF boxes.
+
+### Branching Strategy
+
+| Branch     | Purpose |
+| ------------- | ------ |
+| main       | Production-ready    | 
+| develop       | Integration branch    | 
+| feature/*       | New features or tests   | 
+| bugfix/*      | Fixes or regression coverage    | 
