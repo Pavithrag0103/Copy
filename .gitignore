@@ -1,7 +1,17 @@
-
+.env
+playwright.config.ts
+playwright.config_old.ts
+storageState.json
+global-setup.ts
+report.json
+/actions/rm/login
+/components/rm/login
 # Playwright
 node_modules/
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+# Allure
+/allure-report
+/allure-results
