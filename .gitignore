@@ -1,8 +1,5 @@
-.env
-playwright.config.ts
 playwright.config_old.ts
 storageState.json
-global-setup.ts
 report.json
 /actions/rm/login
 /components/rm/login
