@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --config=playwright.config.ts"
+    "test": "npx playwright test --config=playwright.config.ts",
+    "test:dev": "ENV=dev playwright test",
+    "posttest": "npx allure generate allure-results --clean && npx allure open"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,13 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.1"
+    "@types/node": "^22.15.1",
+    "@types/oracledb": "^6.6.0",
+    "allure-playwright": "^3.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "oracledb": "^6.8.0",
+    "playwright": "^1.52.0"
   }
 }
