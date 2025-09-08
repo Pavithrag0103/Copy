@@ -8,7 +8,7 @@ const env = process.env.ENV || 'dev';
 dotenv.config({ path: path.resolve(__dirname, `.env.${env}`) });
 
 export default defineConfig({
-  testDir: './src/tests',
+  testDir: './src/tests/e2e/rm',
   outputDir: 'artifact/test-results',
   globalSetup: require.resolve('./global-setup'),
   timeout: 30 * 1000,
