@@ -1,0 +1,583 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "RESOURCING Project Center" [ref=e6] [cursor=pointer]:
+        - /url: "f?p=1204:10:716994976083051:::::"
+        - generic [ref=e7] [cursor=pointer]:
+          - img [ref=e9] [cursor=pointer]
+          - img [ref=e11] [cursor=pointer]
+          - generic [ref=e12] [cursor=pointer]:
+            - generic [ref=e13] [cursor=pointer]: RESOURCING
+            - generic [ref=e14] [cursor=pointer]: Project Center
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Resourcing" [ref=e20]:
+                - /url: "#"
+        - button "Switch to" [ref=e21] [cursor=pointer]:
+          - img [ref=e22] [cursor=pointer]
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "QA" [ref=e26] [cursor=pointer]:
+              - /url: "#action$a-dialog-open?url=f%3Fp%3D1204%3A5%3A716994976083051%26p_dialog_cs%3DpEzrVix6jkyE963Bvkf1WkPfnrEoxhZ9PBfR0NjZd_WW2ZW-8xCTSsn58t20e7ZxpEyQ-dUT5vVlwt0JiCJOwg&appId=1204&pageId=5&tmpl=MODAL_DIALOG&title=APEX%20APP%20Attributes&h=auto&w=720&mxw=960&isModal=true&dlgCls=&pageCls=&trgEl=apex.gPageContext%24"
+              - generic [ref=e27] [cursor=pointer]: QA
+          - listitem [ref=e28]
+          - listitem [ref=e29]:
+            - button "PG" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31] [cursor=pointer]: PG
+              - generic [ref=e32] [cursor=pointer]: 
+    - generic [ref=e45]:
+      - img [ref=e47] [cursor=pointer]
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link "Home" [ref=e52] [cursor=pointer]:
+            - /url: "f?p=1204:10:716994976083051:::::"
+          - text: /
+        - listitem [ref=e53]:
+          - heading "Request Summary" [level=1] [ref=e54]
+  - generic [ref=e56]:
+    - navigation "Application":
+      - generic [ref=e57] [cursor=pointer]: 
+      - generic [ref=e58] [cursor=pointer]: 
+      - generic [ref=e59] [cursor=pointer]: 
+      - generic [ref=e60] [cursor=pointer]: 
+      - generic [ref=e61] [cursor=pointer]: 
+      - generic [ref=e62] [cursor=pointer]: 
+      - generic [ref=e63] [cursor=pointer]: 
+      - generic [ref=e64] [cursor=pointer]: 
+      - generic [ref=e65] [cursor=pointer]: 
+      - generic [ref=e66] [cursor=pointer]: 
+      - generic [ref=e67] [cursor=pointer]: 
+      - generic [ref=e68] [cursor=pointer]: 
+      - generic [ref=e69] [cursor=pointer]: 
+      - generic [ref=e70] [cursor=pointer]: 
+      - generic [ref=e71] [cursor=pointer]: 
+      - generic [ref=e72] [cursor=pointer]: 
+      - generic [ref=e73] [cursor=pointer]: 
+      - generic [ref=e74] [cursor=pointer]: 
+    - generic [ref=e76]:
+      - main [ref=e77]:
+        - generic [ref=e80]:
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "OVERVIEW" [ref=e87] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e89] [cursor=pointer]: 
+                - generic [ref=e90] [cursor=pointer]: OVERVIEW
+            - listitem [ref=e91]:
+              - link "HOME" [ref=e92] [cursor=pointer]:
+                - /url: f?p=1204:10:716994976083051:::10::&cs=3DSwVXfLX7TOEjXBWC5JaBdg_Qw6htmu0TWNZdZzeC3tX2xirBTRqTyuan244XFLVDAlKIrJowA69dVpC9Ivepg
+                - generic [ref=e94] [cursor=pointer]: 
+                - generic [ref=e95] [cursor=pointer]: HOME
+            - listitem [ref=e96]:
+              - link "DEMAND" [ref=e97] [cursor=pointer]:
+                - /url: "f?p=1204:10:716994976083051:::::"
+                - generic [ref=e99] [cursor=pointer]: 
+                - generic [ref=e100] [cursor=pointer]: DEMAND
+            - listitem [ref=e101]:
+              - link "REQUESTS" [ref=e102] [cursor=pointer]:
+                - /url: f?p=1204:36:716994976083051:::36::&cs=3HfT6OUJrKRVdUcpFcbV8ziKK4dQmy9x9HruBLIJV_lgvmt4dvZ9WSIVPCpAX76BIaBzL71xe3biULfbQME9K_Q
+                - generic [ref=e104] [cursor=pointer]: 
+                - generic [ref=e105] [cursor=pointer]: REQUESTS
+              - list [ref=e106]:
+                - listitem [ref=e107]:
+                  - link "Pre-Award Requests" [ref=e108] [cursor=pointer]:
+                    - /url: f?p=1204:83:716994976083051:::83::&cs=3v5SFDlO5MbUl9ENEAwD2wyfVcEqmboeiu4jBHALcQEJrZu0AdROCMu2dZbc0Sny9hiOOhgirQD4XN3lbIKwo2A
+                    - generic [ref=e109] [cursor=pointer]: Pre-Award Requests
+                - listitem [ref=e110]:
+                  - link "Post-Award Requests" [ref=e111] [cursor=pointer]:
+                    - /url: f?p=1204:36:716994976083051:::36::&cs=3HfT6OUJrKRVdUcpFcbV8ziKK4dQmy9x9HruBLIJV_lgvmt4dvZ9WSIVPCpAX76BIaBzL71xe3biULfbQME9K_Q
+                    - generic [ref=e112] [cursor=pointer]: Post-Award Requests
+            - listitem [ref=e113]:
+              - link "DIRECT ASSIGN" [ref=e114] [cursor=pointer]:
+                - /url: "f?p=1204:118:716994976083051:::::"
+                - generic [ref=e117] [cursor=pointer]: DIRECT ASSIGN
+          - region "Filter Criteria" [ref=e119]:
+            - heading "Filter Criteria" [level=2] [ref=e122]
+            - generic [ref=e125]:
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - text: 
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: 
+                    - combobox "Search" [ref=e134]
+                    - text: 
+                  - toolbar "Filter suggestions" [ref=e139]:
+                    - listitem [ref=e140] [cursor=pointer]:
+                      - button "Project Role" [ref=e141] [cursor=pointer]
+                      - button
+                    - listitem [ref=e142] [cursor=pointer]:
+                      - button "Region" [ref=e143] [cursor=pointer]
+                      - button
+                    - listitem [ref=e144] [cursor=pointer]:
+                      - button "Country" [ref=e145] [cursor=pointer]
+                      - button
+                    - listitem [ref=e146] [cursor=pointer]:
+                      - button "P-Code" [ref=e147] [cursor=pointer]
+                      - button
+                    - listitem [ref=e148] [cursor=pointer]:
+                      - button "Sponsor" [ref=e149] [cursor=pointer]
+                      - button
+                - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+              - generic [ref=e150]:
+                - generic:
+                  - generic:  
+                - generic [ref=e155]:
+                  - generic [ref=e159]:
+                    - generic [ref=e160]:
+                      - generic [ref=e161]: Post-Award
+                      - generic [ref=e163]:
+                        - switch [ref=e165]
+                        - generic [ref=e167]: Pre-Award
+                    - button "Save" [ref=e168] [cursor=pointer]:
+                      - generic [ref=e169] [cursor=pointer]: Save
+                  - generic [ref=e170]:
+                    - region "Grid View" [ref=e172]:
+                      - grid "Request Report grid" [ref=e173]:
+                        - rowgroup [ref=e195]:
+                          - row "Due By System State Request Status Request ID Project Role Total Hours Pending Hours Date Requested Assignment Start Date Assignment End Date Project Owning BU Sponsor P-Code Region Country Requestor Name Requestor Comments Notes" [ref=e196]:
+                            - columnheader "Due By" [ref=e197] [cursor=pointer]:
+                              - link "Due By" [ref=e198] [cursor=pointer]:
+                                - text: Due By
+                                - img [ref=e199] [cursor=pointer]
+                            - columnheader "System State" [ref=e200] [cursor=pointer]:
+                              - link "System State" [ref=e201] [cursor=pointer]
+                            - columnheader "Request Status" [ref=e202] [cursor=pointer]:
+                              - link "Request Status" [ref=e203] [cursor=pointer]
+                            - columnheader "Request ID" [ref=e204] [cursor=pointer]:
+                              - link "Request ID" [ref=e205] [cursor=pointer]
+                            - columnheader "Project Role" [ref=e206] [cursor=pointer]:
+                              - link "Project Role" [ref=e207] [cursor=pointer]
+                            - columnheader "Total Hours" [ref=e208] [cursor=pointer]:
+                              - link "Total Hours" [ref=e209] [cursor=pointer]
+                            - columnheader "Pending Hours" [ref=e210] [cursor=pointer]:
+                              - link "Pending Hours" [ref=e211] [cursor=pointer]
+                            - columnheader "Date Requested" [ref=e212] [cursor=pointer]:
+                              - link "Date Requested" [ref=e213] [cursor=pointer]
+                            - columnheader "Assignment Start Date" [ref=e214] [cursor=pointer]:
+                              - link "Assignment Start Date" [ref=e215] [cursor=pointer]
+                            - columnheader "Assignment End Date" [ref=e216] [cursor=pointer]:
+                              - link "Assignment End Date" [ref=e217] [cursor=pointer]
+                            - columnheader "Project Owning BU" [ref=e218] [cursor=pointer]:
+                              - link "Project Owning BU" [ref=e219] [cursor=pointer]
+                            - columnheader "Sponsor" [ref=e220] [cursor=pointer]:
+                              - link "Sponsor" [ref=e221] [cursor=pointer]
+                            - columnheader "P-Code" [ref=e222] [cursor=pointer]:
+                              - link "P-Code" [ref=e223] [cursor=pointer]
+                            - columnheader "Region" [ref=e224] [cursor=pointer]:
+                              - link "Region" [ref=e225] [cursor=pointer]
+                            - columnheader "Country" [ref=e226] [cursor=pointer]:
+                              - link "Country" [ref=e227] [cursor=pointer]
+                            - columnheader "Requestor Name" [ref=e228] [cursor=pointer]:
+                              - link "Requestor Name" [ref=e229] [cursor=pointer]
+                            - columnheader "Requestor Comments" [ref=e230] [cursor=pointer]:
+                              - link "Requestor Comments" [ref=e231] [cursor=pointer]
+                            - columnheader "Notes" [ref=e232] [cursor=pointer]:
+                              - link "Notes" [ref=e233] [cursor=pointer]
+                        - generic [ref=e236]:
+                          - text:  
+                          - generic [ref=e237]:
+                            - 'row "17-May-2025 Active Demand Updated 1012740-0000052 Site Contract Negotiator 40 1 17-May-2025 01-May-2025 30-Sep-2025 Clinical Development Blueprint Medicines 1012740 LATAM Argentina Sherman, Kelly Javier Galati Stessens and Josefina Giardelli assigned for ongoing CTA-As. Hours reduced. 23-Jun: FUP | 18-Jun: RM SCN-Ms - Followed up with SAM (Kat Slyfield) to request additional information." [selected] [ref=e257]':
+                              - gridcell "17-May-2025" [ref=e258]
+                              - gridcell "Active" [ref=e259]
+                              - gridcell "Demand Updated" [ref=e260]
+                              - gridcell "1012740-0000052" [ref=e261]:
+                                - link "1012740-0000052" [ref=e262] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C12444%5C,%5C1012740-0000052%5C,%5C1012740%5C,%5C01-May-2025%5C,%5C30-Sep-2025%5C,%5C40%5C,%5CSite%20Contract%20Negotiator%5C,,%5CLATAM%5C,%5CARG%5C&cs=1TexsB0SrHkbayDLu_KVQFBFsn1_I_SgJijeiS6B_sNepe_YhJEiJlQ9gtKE0od4FRJ_hDGorZ2JIcDKym8nu_w
+                              - gridcell "Site Contract Negotiator" [ref=e263]
+                              - gridcell "40" [ref=e264]
+                              - gridcell "1" [ref=e265]
+                              - gridcell "17-May-2025" [ref=e266]
+                              - gridcell "01-May-2025" [ref=e267]
+                              - gridcell "30-Sep-2025" [ref=e268]
+                              - gridcell "Clinical Development" [ref=e269]
+                              - gridcell "Blueprint Medicines" [ref=e270]
+                              - gridcell "1012740" [ref=e271]
+                              - gridcell "LATAM" [ref=e272]
+                              - gridcell "Argentina" [ref=e273]
+                              - gridcell "Sherman, Kelly" [ref=e274]
+                              - gridcell "Javier Galati Stessens and Josefina Giardelli assigned for ongoing CTA-As. Hours reduced." [ref=e275]
+                              - 'gridcell "23-Jun: FUP | 18-Jun: RM SCN-Ms - Followed up with SAM (Kat Slyfield) to request additional information." [ref=e276]'
+                            - 'row "17-May-2025 Active Demand Updated 7005197-0000036 Site Contract Negotiator 329 -120 17-May-2025 01-May-2025 31-Oct-2025 Clinical Development Abbvie Inc. 7005197 LATAM Argentina Sherman, Kelly 25-Jun: RM requested submission be declined. Pending action from SAM. 23-Jun: FUP 18-Jun: RM SCN-Ms - Followed up with SAM (Mytisha Jarman) to request additional information." [ref=e277]':
+                              - gridcell "17-May-2025" [ref=e278]
+                              - gridcell "Active" [ref=e279]
+                              - gridcell "Demand Updated" [ref=e280]
+                              - gridcell "7005197-0000036" [ref=e281]:
+                                - link "7005197-0000036" [ref=e282] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C3306%5C,%5C7005197-0000036%5C,%5C7005197%5C,%5C01-May-2025%5C,%5C31-Oct-2025%5C,%5C329%5C,%5CSite%20Contract%20Negotiator%5C,,%5CLATAM%5C,%5CARG%5C&cs=19FT9NbajPAfwLWN16MqwbA_zLgA6hlNP2y4w2qGaEFcQjcGvsKjne8DlkebprGAlf6w6w2MYLLxYWHoy3qCxnw
+                              - gridcell "Site Contract Negotiator" [ref=e283]
+                              - gridcell "329" [ref=e284]
+                              - gridcell "-120" [ref=e285]
+                              - gridcell "17-May-2025" [ref=e286]
+                              - gridcell "01-May-2025" [ref=e287]
+                              - gridcell "31-Oct-2025" [ref=e288]
+                              - gridcell "Clinical Development" [ref=e289]
+                              - gridcell "Abbvie Inc." [ref=e290]
+                              - gridcell "7005197" [ref=e291]
+                              - gridcell "LATAM" [ref=e292]
+                              - gridcell "Argentina" [ref=e293]
+                              - gridcell "Sherman, Kelly" [ref=e294]
+                              - gridcell [ref=e295]
+                              - 'gridcell "25-Jun: RM requested submission be declined. Pending action from SAM. 23-Jun: FUP 18-Jun: RM SCN-Ms - Followed up with SAM (Mytisha Jarman) to request additional information." [ref=e296]'
+                            - 'row "17-May-2025 Active Partially Fulfilled 7009165-0000127 Clinical Programmer 1820 704 17-May-2025 01-May-2025 30-Nov-2027 Clinical Development Daiichi Sankyo, Inc. 7009165 NA Canada Sherman, Kelly 13Jun2025 (MRJ). Please update the hours for Hema Mani to 23 hours Oct. & Nov. SC 24Jun25: assigned hrs until May26 when hrs spike - waiting to see if these are adjusted. JM: 21jul25 - send other request to Nancy to update hours" [ref=e297]':
+                              - gridcell "17-May-2025" [ref=e298]
+                              - gridcell "Active" [ref=e299]
+                              - gridcell "Partially Fulfilled" [ref=e300]
+                              - gridcell "7009165-0000127" [ref=e301]:
+                                - link "7009165-0000127" [ref=e302] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C7679%5C,%5C7009165-0000127%5C,%5C7009165%5C,%5C01-May-2025%5C,%5C30-Nov-2027%5C,%5C1820%5C,%5CClinical%20Programmer%5C,,%5CNA%5C,%5CCAN%5C&cs=1UCZ1ZRmc6JDQp7B5FxlRnG38tOVe3n_vhWc8gYt39iA20Ghh44xo6GGeg2yTboCrTlER3FT8hShBcyF5fC_0WQ
+                              - gridcell "Clinical Programmer" [ref=e303]
+                              - gridcell "1820" [ref=e304]
+                              - gridcell "704" [ref=e305]
+                              - gridcell "17-May-2025" [ref=e306]
+                              - gridcell "01-May-2025" [ref=e307]
+                              - gridcell "30-Nov-2027" [ref=e308]
+                              - gridcell "Clinical Development" [ref=e309]
+                              - gridcell "Daiichi Sankyo, Inc." [ref=e310]
+                              - gridcell "7009165" [ref=e311]
+                              - gridcell "NA" [ref=e312]
+                              - gridcell "Canada" [ref=e313]
+                              - gridcell "Sherman, Kelly" [ref=e314]
+                              - gridcell "13Jun2025 (MRJ). Please update the hours for Hema Mani to 23 hours Oct. & Nov." [ref=e315]
+                              - 'gridcell "SC 24Jun25: assigned hrs until May26 when hrs spike - waiting to see if these are adjusted. JM: 21jul25 - send other request to Nancy to update hours" [ref=e316]'
+                            - row "17-May-2025 Active Demand Updated 7026251-0000017 Safety Specialist 5080 4373 17-May-2025 01-May-2025 30-Jun-2026 Clinical Development Pharma Mar, S.a. 7026251 APAC Japan Sherman, Kelly" [ref=e317]:
+                              - gridcell "17-May-2025" [ref=e318]
+                              - gridcell "Active" [ref=e319]
+                              - gridcell "Demand Updated" [ref=e320]
+                              - gridcell "7026251-0000017" [ref=e321]:
+                                - link "7026251-0000017" [ref=e322] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C10380%5C,%5C7026251-0000017%5C,%5C7026251%5C,%5C01-May-2025%5C,%5C30-Jun-2026%5C,%5C5080%5C,%5CSafety%20Specialist%5C,,%5CAPAC%5C,%5CJPN%5C&cs=1UYi4L-OHnOSV-KvYoRngkwMq7aBAdYfKCLNavfrPtHpjDxexfW0wIUX_Q5p12e-7sZBY7FJNsJ6DrpUYmXuAUQ
+                              - gridcell "Safety Specialist" [ref=e323]
+                              - gridcell "5080" [ref=e324]
+                              - gridcell "4373" [ref=e325]
+                              - gridcell "17-May-2025" [ref=e326]
+                              - gridcell "01-May-2025" [ref=e327]
+                              - gridcell "30-Jun-2026" [ref=e328]
+                              - gridcell "Clinical Development" [ref=e329]
+                              - gridcell "Pharma Mar, S.a." [ref=e330]
+                              - gridcell "7026251" [ref=e331]
+                              - gridcell "APAC" [ref=e332]
+                              - gridcell "Japan" [ref=e333]
+                              - gridcell "Sherman, Kelly" [ref=e334]
+                              - gridcell [ref=e335]
+                              - gridcell [ref=e336]
+                            - row "17-May-2025 Active Demand Updated 7041203-0000011 Clinical Research Associate 1127 -835 17-May-2025 01-May-2025 24-Nov-2026 Clinical Development Teva Branded Pharmaceutical Products R&d, Inc. 7041203 APAC Korea (the Republic of) Sherman, Kelly Consolidate FTE to one of the current CRAs" [ref=e337]:
+                              - gridcell "17-May-2025" [ref=e338]
+                              - gridcell "Active" [ref=e339]
+                              - gridcell "Demand Updated" [ref=e340]
+                              - gridcell "7041203-0000011" [ref=e341]:
+                                - link "7041203-0000011" [ref=e342] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C1600%5C,%5C7041203-0000011%5C,%5C7041203%5C,%5C01-May-2025%5C,%5C24-Nov-2026%5C,%5C1127%5C,%5CClinical%20Research%20Associate%5C,,%5CAPAC%5C,%5CKOR%5C&cs=1eE71tU4MNwq9VAg4tCkYzz5ovi9hBf62LoQC4QDByPVYK5o2npDAK-Mn2MfiC6lrFFrP6xgI9HY15Nm17N7xPQ
+                              - gridcell "Clinical Research Associate" [ref=e343]
+                              - gridcell "1127" [ref=e344]
+                              - gridcell "-835" [ref=e345]
+                              - gridcell "17-May-2025" [ref=e346]
+                              - gridcell "01-May-2025" [ref=e347]
+                              - gridcell "24-Nov-2026" [ref=e348]
+                              - gridcell "Clinical Development" [ref=e349]
+                              - gridcell "Teva Branded Pharmaceutical Products R&d, Inc." [ref=e350]
+                              - gridcell "7041203" [ref=e351]
+                              - gridcell "APAC" [ref=e352]
+                              - gridcell "Korea (the Republic of)" [ref=e353]
+                              - gridcell "Sherman, Kelly" [ref=e354]
+                              - gridcell "Consolidate FTE to one of the current CRAs" [ref=e355]
+                              - gridcell [ref=e356]
+                            - row "17-May-2025 Active Partially Fulfilled 7041203-0000121 Clinical Research Associate 24100 3623 17-May-2025 01-May-2025 24-Nov-2026 Clinical Development Teva Branded Pharmaceutical Products R&d, Inc. 7041203 NA United States of America (the) Sherman, Kelly" [ref=e357]:
+                              - gridcell "17-May-2025" [ref=e358]
+                              - gridcell "Active" [ref=e359]
+                              - gridcell "Partially Fulfilled" [ref=e360]
+                              - gridcell "7041203-0000121" [ref=e361]:
+                                - link "7041203-0000121" [ref=e362] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C1710%5C,%5C7041203-0000121%5C,%5C7041203%5C,%5C01-May-2025%5C,%5C24-Nov-2026%5C,%5C24100%5C,%5CClinical%20Research%20Associate%5C,,%5CNA%5C,%5CUSA%5C&cs=1Iwr2sYEnz5QQbsNAguVo7gvcIYbPHeliQAir9tBa0vbCxzyuV0TXyfJakXZ-N6AtCDXOERUiQn6_A2TZhoxT0g
+                              - gridcell "Clinical Research Associate" [ref=e363]
+                              - gridcell "24100" [ref=e364]
+                              - gridcell "3623" [ref=e365]
+                              - gridcell "17-May-2025" [ref=e366]
+                              - gridcell "01-May-2025" [ref=e367]
+                              - gridcell "24-Nov-2026" [ref=e368]
+                              - gridcell "Clinical Development" [ref=e369]
+                              - gridcell "Teva Branded Pharmaceutical Products R&d, Inc." [ref=e370]
+                              - gridcell "7041203" [ref=e371]
+                              - gridcell "NA" [ref=e372]
+                              - gridcell "United States of America (the)" [ref=e373]
+                              - gridcell "Sherman, Kelly" [ref=e374]
+                              - gridcell [ref=e375]
+                              - gridcell [ref=e376]
+                            - row "17-May-2025 Active Demand Updated 7041471-0000016 Clinical Trial Supplies Manager 491 -44 17-May-2025 01-May-2025 17-Feb-2027 RWLP Currax Pharmaceuticals Llc 7041471 EMEA United Kingdom of Great Britain and Northern Ireland (the) Sherman, Kelly Realignment with forecasted hours." [ref=e377]:
+                              - gridcell "17-May-2025" [ref=e378]
+                              - gridcell "Active" [ref=e379]
+                              - gridcell "Demand Updated" [ref=e380]
+                              - gridcell "7041471-0000016" [ref=e381]:
+                                - link "7041471-0000016" [ref=e382] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C1556%5C,%5C7041471-0000016%5C,%5C7041471%5C,%5C01-May-2025%5C,%5C17-Feb-2027%5C,%5C491%5C,%5CClinical%20Trial%20Supplies%20Manager%5C,,%5CEMEA%5C,%5CGBR%5C&cs=1v4dCw6uEtX4yTwBnfGkjEIzqgH-2LYPdzoZVuqG5mHDBi3esegG31v-eM060E80qkTPMYFk_xXbyZ84vVKqXiw
+                              - gridcell "Clinical Trial Supplies Manager" [ref=e383]
+                              - gridcell "491" [ref=e384]
+                              - gridcell "-44" [ref=e385]
+                              - gridcell "17-May-2025" [ref=e386]
+                              - gridcell "01-May-2025" [ref=e387]
+                              - gridcell "17-Feb-2027" [ref=e388]
+                              - gridcell "RWLP" [ref=e389]
+                              - gridcell "Currax Pharmaceuticals Llc" [ref=e390]
+                              - gridcell "7041471" [ref=e391]
+                              - gridcell "EMEA" [ref=e392]
+                              - gridcell "United Kingdom of Great Britain and Northern Ireland (the)" [ref=e393]
+                              - gridcell "Sherman, Kelly" [ref=e394]
+                              - gridcell "Realignment with forecasted hours." [ref=e395]
+                              - gridcell [ref=e396]
+                            - row "17-May-2025 Active Partially Fulfilled 7042000-0000008 Clinical Research Associate 1678 20 17-May-2025 01-May-2025 30-Dec-2025 Clinical Development Becton, Dickinson And Company 7042000 NA United States of America (the) Sherman, Kelly" [ref=e397]:
+                              - gridcell "17-May-2025" [ref=e398]
+                              - gridcell "Active" [ref=e399]
+                              - gridcell "Partially Fulfilled" [ref=e400]
+                              - gridcell "7042000-0000008" [ref=e401]:
+                                - link "7042000-0000008" [ref=e402] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C16469%5C,%5C7042000-0000008%5C,%5C7042000%5C,%5C01-May-2025%5C,%5C30-Dec-2025%5C,%5C1678%5C,%5CClinical%20Research%20Associate%5C,,%5CNA%5C,%5CUSA%5C&cs=1w8yOFCEvrk_HNgY6Unj_DjZeDae8AMiacJvY4g9H3m6OHTE4MiD63Yp0TIuS4xnCii2fCUobf1xfQk1ClKgktA
+                              - gridcell "Clinical Research Associate" [ref=e403]
+                              - gridcell "1678" [ref=e404]
+                              - gridcell "20" [ref=e405]
+                              - gridcell "17-May-2025" [ref=e406]
+                              - gridcell "01-May-2025" [ref=e407]
+                              - gridcell "30-Dec-2025" [ref=e408]
+                              - gridcell "Clinical Development" [ref=e409]
+                              - gridcell "Becton, Dickinson And Company" [ref=e410]
+                              - gridcell "7042000" [ref=e411]
+                              - gridcell "NA" [ref=e412]
+                              - gridcell "United States of America (the)" [ref=e413]
+                              - gridcell "Sherman, Kelly" [ref=e414]
+                              - gridcell [ref=e415]
+                              - gridcell [ref=e416]
+                            - row "17-May-2025 Active Demand Updated 7043155-0000028 Clinical Research Associate 3941 -669 17-May-2025 01-May-2025 30-Apr-2026 Clinical Development Epion Therapeutics, Inc 7043155 NA United States of America (the) Sherman, Kelly CRAs were entered at 1.0 FTE instead of .50 FTE, doubling their hours" [ref=e417]:
+                              - gridcell "17-May-2025" [ref=e418]
+                              - gridcell "Active" [ref=e419]
+                              - gridcell "Demand Updated" [ref=e420]
+                              - gridcell "7043155-0000028" [ref=e421]:
+                                - link "7043155-0000028" [ref=e422] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C13760%5C,%5C7043155-0000028%5C,%5C7043155%5C,%5C01-May-2025%5C,%5C30-Apr-2026%5C,%5C3941%5C,%5CClinical%20Research%20Associate%5C,,%5CNA%5C,%5CUSA%5C&cs=1EwYVbVfMSfZN1a-ZCIGYSt455ZcSP3xETP6DVCB-HIU-cYlQ6EhjBgWQOWX8i-ikMpk1qvrF3V3dP-dKCyJbuQ
+                              - gridcell "Clinical Research Associate" [ref=e423]
+                              - gridcell "3941" [ref=e424]
+                              - gridcell "-669" [ref=e425]
+                              - gridcell "17-May-2025" [ref=e426]
+                              - gridcell "01-May-2025" [ref=e427]
+                              - gridcell "30-Apr-2026" [ref=e428]
+                              - gridcell "Clinical Development" [ref=e429]
+                              - gridcell "Epion Therapeutics, Inc" [ref=e430]
+                              - gridcell "7043155" [ref=e431]
+                              - gridcell "NA" [ref=e432]
+                              - gridcell "United States of America (the)" [ref=e433]
+                              - gridcell "Sherman, Kelly" [ref=e434]
+                              - gridcell "CRAs were entered at 1.0 FTE instead of .50 FTE, doubling their hours" [ref=e435]
+                              - gridcell [ref=e436]
+                            - row "17-May-2025 Active Demand Updated 7043924-0000025 Clinical Research Associate 868 -20 17-May-2025 01-May-2025 24-May-2026 Clinical Development Transthera Sciences (nanjing), Inc 7043924 APAC Taiwan (Province of China) Sherman, Kelly reduced total country CRA FTE by 4 hrs - pls reduce 2 hrs on each CRA" [ref=e437]:
+                              - gridcell "17-May-2025" [ref=e438]
+                              - gridcell "Active" [ref=e439]
+                              - gridcell "Demand Updated" [ref=e440]
+                              - gridcell "7043924-0000025" [ref=e441]:
+                                - link "7043924-0000025" [ref=e442] [cursor=pointer]:
+                                  - /url: f?p=1204:30:716994976083051:APEX_CLONE_SESSION::30:P30_DEMAND_ID,P30_REQUEST_ID,P0_PROJECT_CODE,P30_RD_START_DATE,P30_END_DATE,P30_RD_TOTAL_HRS,P30_S_ROLE_NAME,P30_REQUESTER_COMMENT,P30_S_REGION,P30_S_COUNTRY:%5C13571%5C,%5C7043924-0000025%5C,%5C7043924%5C,%5C01-May-2025%5C,%5C24-May-2026%5C,%5C868%5C,%5CClinical%20Research%20Associate%5C,,%5CAPAC%5C,%5CTWN%5C&cs=1xe9XHVZLsR6qmMLVm-nqkPbHFmEd7qPT2-tZ7LD5VZU21TZh1DPnJd6xDaMTxSnxqkJeeIJ-WtQj3M5FxuGG8Q
+                              - gridcell "Clinical Research Associate" [ref=e443]
+                              - gridcell "868" [ref=e444]
+                              - gridcell "-20" [ref=e445]
+                              - gridcell "17-May-2025" [ref=e446]
+                              - gridcell "01-May-2025" [ref=e447]
+                              - gridcell "24-May-2026" [ref=e448]
+                              - gridcell "Clinical Development" [ref=e449]
+                              - gridcell "Transthera Sciences (nanjing), Inc" [ref=e450]
+                              - gridcell "7043924" [ref=e451]
+                              - gridcell "APAC" [ref=e452]
+                              - gridcell "Taiwan (Province of China)" [ref=e453]
+                              - gridcell "Sherman, Kelly" [ref=e454]
+                              - gridcell "reduced total country CRA FTE by 4 hrs - pls reduce 2 hrs on each CRA" [ref=e455]
+                              - gridcell [ref=e456]
+                        - region "Grid Footer" [ref=e457]:
+                          - region "Grid Status"
+                          - region "Pagination" [ref=e458]:
+                            - generic [ref=e459]: "Total rows: 1215"
+                            - text:  
+                            - combobox "Page Selection" [ref=e461]:
+                              - option "1 (1 - 10)" [selected]
+                              - option "2 (11 - 20)"
+                              - option "3 (21 - 30)"
+                              - option "4 (31 - 40)"
+                              - option "5 (41 - 50)"
+                              - option "6 (51 - 60)"
+                              - option "7 (61 - 70)"
+                              - option "8 (71 - 80)"
+                              - option "9 (81 - 90)"
+                              - option "10 (91 - 100)"
+                              - option "11 (101 - 110)"
+                              - option "12 (111 - 120)"
+                              - option "13 (121 - 130)"
+                              - option "14 (131 - 140)"
+                              - option "15 (141 - 150)"
+                              - option "16 (151 - 160)"
+                              - option "17 (161 - 170)"
+                              - option "18 (171 - 180)"
+                              - option "19 (181 - 190)"
+                              - option "20 (191 - 200)"
+                              - option "21 (201 - 210)"
+                              - option "22 (211 - 220)"
+                              - option "23 (221 - 230)"
+                              - option "24 (231 - 240)"
+                              - option "25 (241 - 250)"
+                              - option "26 (251 - 260)"
+                              - option "27 (261 - 270)"
+                              - option "28 (271 - 280)"
+                              - option "29 (281 - 290)"
+                              - option "30 (291 - 300)"
+                              - option "31 (301 - 310)"
+                              - option "32 (311 - 320)"
+                              - option "33 (321 - 330)"
+                              - option "34 (331 - 340)"
+                              - option "35 (341 - 350)"
+                              - option "36 (351 - 360)"
+                              - option "37 (361 - 370)"
+                              - option "38 (371 - 380)"
+                              - option "39 (381 - 390)"
+                              - option "40 (391 - 400)"
+                              - option "41 (401 - 410)"
+                              - option "42 (411 - 420)"
+                              - option "43 (421 - 430)"
+                              - option "44 (431 - 440)"
+                              - option "45 (441 - 450)"
+                              - option "46 (451 - 460)"
+                              - option "47 (461 - 470)"
+                              - option "48 (471 - 480)"
+                              - option "49 (481 - 490)"
+                              - option "50 (491 - 500)"
+                              - option "51 (501 - 510)"
+                              - option "52 (511 - 520)"
+                              - option "53 (521 - 530)"
+                              - option "54 (531 - 540)"
+                              - option "55 (541 - 550)"
+                              - option "56 (551 - 560)"
+                              - option "57 (561 - 570)"
+                              - option "58 (571 - 580)"
+                              - option "59 (581 - 590)"
+                              - option "60 (591 - 600)"
+                              - option "61 (601 - 610)"
+                              - option "62 (611 - 620)"
+                              - option "63 (621 - 630)"
+                              - option "64 (631 - 640)"
+                              - option "65 (641 - 650)"
+                              - option "66 (651 - 660)"
+                              - option "67 (661 - 670)"
+                              - option "68 (671 - 680)"
+                              - option "69 (681 - 690)"
+                              - option "70 (691 - 700)"
+                              - option "71 (701 - 710)"
+                              - option "72 (711 - 720)"
+                              - option "73 (721 - 730)"
+                              - option "74 (731 - 740)"
+                              - option "75 (741 - 750)"
+                              - option "76 (751 - 760)"
+                              - option "77 (761 - 770)"
+                              - option "78 (771 - 780)"
+                              - option "79 (781 - 790)"
+                              - option "80 (791 - 800)"
+                              - option "81 (801 - 810)"
+                              - option "82 (811 - 820)"
+                              - option "83 (821 - 830)"
+                              - option "84 (831 - 840)"
+                              - option "85 (841 - 850)"
+                              - option "86 (851 - 860)"
+                              - option "87 (861 - 870)"
+                              - option "88 (871 - 880)"
+                              - option "89 (881 - 890)"
+                              - option "90 (891 - 900)"
+                              - option "91 (901 - 910)"
+                              - option "92 (911 - 920)"
+                              - option "93 (921 - 930)"
+                              - option "94 (931 - 940)"
+                              - option "95 (941 - 950)"
+                              - option "96 (951 - 960)"
+                              - option "97 (961 - 970)"
+                              - option "98 (971 - 980)"
+                              - option "99 (981 - 990)"
+                              - option "100 (991 - 1000)"
+                              - option "101 (1001 - 1010)"
+                              - option "102 (1011 - 1020)"
+                              - option "103 (1021 - 1030)"
+                              - option "104 (1031 - 1040)"
+                              - option "105 (1041 - 1050)"
+                              - option "106 (1051 - 1060)"
+                              - option "107 (1061 - 1070)"
+                              - option "108 (1071 - 1080)"
+                              - option "109 (1081 - 1090)"
+                              - option "110 (1091 - 1100)"
+                              - option "111 (1101 - 1110)"
+                              - option "112 (1111 - 1120)"
+                              - option "113 (1121 - 1130)"
+                              - option "114 (1131 - 1140)"
+                              - option "115 (1141 - 1150)"
+                              - option "116 (1151 - 1160)"
+                              - option "117 (1161 - 1170)"
+                              - option "118 (1171 - 1180)"
+                              - option "119 (1181 - 1190)"
+                              - option "120 (1191 - 1200)"
+                              - option "121 (1201 - 1210)"
+                              - option "122 (1211 - 1215)"
+                            - button "Next" [ref=e462] [cursor=pointer]:
+                              - generic [ref=e463] [cursor=pointer]: 
+                            - button "Last" [ref=e464] [cursor=pointer]:
+                              - generic [ref=e465] [cursor=pointer]: 
+                            - text: Showing records
+                        - text:  
+                      - text:        
+                    - generic [ref=e467]:
+                      - generic [ref=e469]:
+                        - combobox [ref=e470]
+                        - button [ref=e471] [cursor=pointer]:
+                          - generic [ref=e472] [cursor=pointer]: 
+                      - textbox [ref=e474]
+                      - textbox [ref=e476]
+                      - textbox [ref=e478]
+                      - textbox [ref=e480]
+                      - generic [ref=e482]:
+                        - combobox [ref=e483]
+                        - button [ref=e484] [cursor=pointer]:
+                          - generic [ref=e485] [cursor=pointer]: 
+                      - generic [ref=e487]:
+                        - combobox [ref=e488]
+                        - button [ref=e489] [cursor=pointer]:
+                          - generic [ref=e490] [cursor=pointer]: 
+                      - generic [ref=e492]:
+                        - combobox [ref=e493]
+                        - button [ref=e494] [cursor=pointer]:
+                          - generic [ref=e495] [cursor=pointer]: 
+                      - textbox [ref=e497]
+                      - textbox [ref=e499]
+                      - textbox [ref=e501]
+                      - textbox [ref=e503]
+                      - textbox [ref=e505]
+                      - textbox [ref=e507]
+                      - textbox [ref=e510]
+                      - textbox [ref=e512]
+      - contentinfo [ref=e513]:
+        - generic [ref=e516]:
+          - img "Project Center Logo" [ref=e518]
+          - generic [ref=e519]:
+            - link "Terms of Use" [ref=e521] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-website-terms-use
+            - img [ref=e523]
+            - link "Privacy Notice" [ref=e525] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-tm-privacy-statement-and-terms-use
+            - img [ref=e527]
+            - link "Service Desk" [ref=e529] [cursor=pointer]:
+              - /url: https://synh.service-now.com/
+            - img [ref=e531]
+            - link "Project Compass" [ref=e533] [cursor=pointer]:
+              - /url: https://synh.sharepoint.com/sites/theprojectcompass/Clinical/Systems/Pages/PDC.aspx
+            - img [ref=e535]
+            - generic [ref=e536]: © 2025 Syneos Health. All Rights Reserved
+        - link "Start of page" [ref=e538] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=e539] [cursor=pointer]: 
+  - log [ref=e541]
+  - log [ref=e542]
+  - log [ref=e543]
+```

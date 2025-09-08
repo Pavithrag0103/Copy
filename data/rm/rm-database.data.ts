@@ -129,6 +129,9 @@ export class RmDatabaseData {
     "ORDER BY IS_LEAD, ASSIGNMENT_START_DATE DESC\n" +
     "FETCH FIRST 10 ROWS ONLY";
 
+    private queryemp: string = "" +
+    "select * from rm_hcm_employee where empl_id='250580'";
+
   private async getData(query: string): Promise<string> {
     const result = await executeOracleQuery(query);
     return result.json;
@@ -166,7 +169,17 @@ export class RmDatabaseData {
     //console.log(pCode, '\n', projectRole);
     //console.log(this.queryProjectAssignments.replace("UPC_TO_SEARCH", pCode).replace("SEARCH_PROJECT_ROLE", projectRole));
     return await this.getData(this.queryProjectAssignments.replace("UPC_TO_SEARCH", pCode).replace("SEARCH_PROJECT_ROLE", projectRole));
+
   };
+
+  async getemp(empl_id:Number): Promise<string> {
+    
+    const data= await this.getData(this.queryemp.replace("250580", String(empl_id)));
+    console.log(data);
+    return data;
+
+  };
+
 }
 
 export const rmDatabaseData = new RmDatabaseData();

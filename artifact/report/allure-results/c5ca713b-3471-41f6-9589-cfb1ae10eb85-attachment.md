@@ -1,0 +1,208 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "RESOURCING Project Center" [ref=e6] [cursor=pointer]:
+        - /url: "f?p=1204:10:711467696432484:::::"
+        - generic [ref=e7] [cursor=pointer]:
+          - img [ref=e9] [cursor=pointer]
+          - img [ref=e11] [cursor=pointer]
+          - generic [ref=e12] [cursor=pointer]:
+            - generic [ref=e13] [cursor=pointer]: RESOURCING
+            - generic [ref=e14] [cursor=pointer]: Project Center
+      - generic [ref=e15]:
+        - generic:
+          - navigation
+        - button "Switch to" [ref=e16] [cursor=pointer]:
+          - img [ref=e17] [cursor=pointer]
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "QA":
+              - /url: "#action$a-dialog-open?url=f%3Fp%3D1204%3A5%3A711467696432484%26p_dialog_cs%3D-T5KCyia1GaNWtH3FRLqqH7oNT_f8LkV_iCTGRuApwymUBQyGzRfXoYReMvcrh--07eFHIFfTi6skS2vRZRcQw&appId=1204&pageId=5&tmpl=MODAL_DIALOG&title=APEX%20APP%20Attributes&h=auto&w=720&mxw=960&isModal=true&dlgCls=&pageCls=&trgEl=apex.gPageContext%24"
+              - generic: QA
+          - listitem [ref=e21]
+          - listitem [ref=e22]:
+            - button "PG" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24] [cursor=pointer]: PG
+              - generic [ref=e25] [cursor=pointer]: 
+    - generic [ref=e27]:
+      - generic:
+        - generic:
+          - region "Menu and tabs"
+      - generic [ref=e38]:
+        - img [ref=e40] [cursor=pointer]
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - link "Home" [ref=e45] [cursor=pointer]:
+              - /url: "f?p=1204:10:711467696432484:::::"
+            - text: /
+          - listitem [ref=e46]:
+            - heading "My Requests" [level=1] [ref=e47]
+  - generic [ref=e49]:
+    - navigation "Application":
+      - generic "Main Navigation":
+        - list:
+          - listitem:
+            - generic [ref=e50]: 
+          - listitem:
+            - generic [ref=e51]: 
+          - listitem:
+            - generic [ref=e52]: 
+          - listitem:
+            - generic [ref=e53]: 
+          - listitem:
+            - generic [ref=e54]: 
+          - listitem:
+            - generic [ref=e55]: 
+          - listitem:
+            - generic [ref=e56]: 
+          - listitem:
+            - generic [ref=e57]: 
+          - listitem:
+            - generic [ref=e58]: 
+          - listitem:
+            - generic [ref=e59]: 
+          - listitem:
+            - generic [ref=e60]: 
+          - listitem:
+            - generic [ref=e61]: 
+          - listitem:
+            - generic [ref=e62]: 
+          - listitem:
+            - generic [ref=e63]: 
+          - listitem:
+            - generic [ref=e64]: 
+          - listitem:
+            - generic [ref=e65]: 
+          - listitem:
+            - generic [ref=e66]: 
+          - listitem:
+            - generic [ref=e67]: 
+    - generic [ref=e69]:
+      - main [ref=e70]:
+        - generic [ref=e73]:
+          - region "Nav_Menu" [ref=e75]:
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - link "OVERVIEW" [ref=e80] [cursor=pointer]:
+                  - /url: ""
+                  - generic [ref=e82] [cursor=pointer]: 
+                  - generic [ref=e83] [cursor=pointer]: OVERVIEW
+              - listitem [ref=e84]:
+                - link "HOME" [ref=e85] [cursor=pointer]:
+                  - /url: f?p=1204:10:711467696432484:::10::&cs=3ATh8dbW_9LqYnvaHhuAAy6J8NcQqvUvvGA-wEAacnCNlwl3bGqM4Mlj3k8bjt6-jqNYb4ki1rTBZYK_adDyrpg
+                  - generic [ref=e87] [cursor=pointer]: 
+                  - generic [ref=e88] [cursor=pointer]: HOME
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - link "All Projects" [ref=e91] [cursor=pointer]:
+                      - /url: f?p=1204:10:711467696432484:::10::&cs=3ATh8dbW_9LqYnvaHhuAAy6J8NcQqvUvvGA-wEAacnCNlwl3bGqM4Mlj3k8bjt6-jqNYb4ki1rTBZYK_adDyrpg
+                      - generic [ref=e92] [cursor=pointer]: All Projects
+                  - listitem [ref=e93]:
+                    - link "My Projects" [ref=e94] [cursor=pointer]:
+                      - /url: f?p=1204:135:711467696432484:::135::&cs=3Pjqq6Pp6FRCqDKj-sLGg6JFmb5auBV1RuD_mWoqBIK41tL1m-5nfUIkq-17n7W3vxxwdvoub-JDM8P6NzWgKag
+                      - generic [ref=e95] [cursor=pointer]: My Projects
+                  - listitem [ref=e96]:
+                    - link "Assignment Notifications" [ref=e97] [cursor=pointer]:
+                      - /url: f?p=1204:3:711467696432484:::3::&cs=3aPumYF8NCBBQvjCwJRey8h4kqNpHj8wgp5OucYHnafCbcZjvjUStcpkVx-C5xKNDwziwq1S4Ig9n9m9f1MhzOA
+                      - generic [ref=e98] [cursor=pointer]: Assignment Notifications
+                  - listitem [ref=e99]:
+                    - link "My Requests" [ref=e100] [cursor=pointer]:
+                      - /url: "f?p=1204:127:711467696432484:::::"
+                      - generic [ref=e101] [cursor=pointer]: My Requests
+                  - listitem [ref=e102]:
+                    - link "HR Actions" [ref=e103] [cursor=pointer]:
+                      - /url: "f?p=1204:139:711467696432484:::::"
+                      - generic [ref=e104] [cursor=pointer]: HR Actions
+                  - listitem [ref=e105]:
+                    - link "My Pools" [ref=e106] [cursor=pointer]:
+                      - /url: "f?p=1204:130:711467696432484:::::"
+                      - generic [ref=e107] [cursor=pointer]: My Pools
+              - listitem [ref=e108]:
+                - link "DEMAND" [ref=e109] [cursor=pointer]:
+                  - /url: "f?p=1204:10:711467696432484:::::"
+                  - generic [ref=e111] [cursor=pointer]: 
+                  - generic [ref=e112] [cursor=pointer]: DEMAND
+              - listitem [ref=e113]:
+                - link "REQUESTS" [ref=e114] [cursor=pointer]:
+                  - /url: f?p=1204:36:711467696432484:::36::&cs=3sFddnrduf3mZbbqVnPaxJ_goI4q7wa33JKsYiP_HriMEQ1i5AnjYt5F0ptiAX82E9Lxdf0Z6k2qAWfskn9c6zg
+                  - generic [ref=e116] [cursor=pointer]: 
+                  - generic [ref=e117] [cursor=pointer]: REQUESTS
+              - listitem [ref=e118]:
+                - link "DIRECT ASSIGN" [ref=e119] [cursor=pointer]:
+                  - /url: "f?p=1204:118:711467696432484:::::"
+                  - generic [ref=e122] [cursor=pointer]: DIRECT ASSIGN
+          - generic [ref=e123]:
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - link "MY REQUESTS" [ref=e127] [cursor=pointer]:
+                  - /url: "f?p=1204:127:711467696432484:::::"
+                  - generic [ref=e128] [cursor=pointer]: MY REQUESTS
+              - listitem [ref=e129]:
+                - link "MY OVERDUE REQUESTS" [ref=e130] [cursor=pointer]:
+                  - /url: "f?p=1204:138:711467696432484:::::"
+                  - generic [ref=e131] [cursor=pointer]: MY OVERDUE REQUESTS
+            - region "My Request - Post award" [ref=e132]:
+              - region "Request Report grid" [ref=e138]:
+                - generic [ref=e140]:
+                  - generic [ref=e144]:
+                    - generic [ref=e147]:
+                      - generic [ref=e148]: Post-Award
+                      - switch [ref=e150]
+                      - generic [ref=e152]: Pre-Award
+                    - button "SAVE" [ref=e153] [cursor=pointer]:
+                      - generic [ref=e154] [cursor=pointer]: SAVE
+                  - generic [ref=e155]:
+                    - generic [ref=e157]:
+                      - textbox [ref=e158]
+                      - button [ref=e159] [cursor=pointer]:
+                        - generic [ref=e160] [cursor=pointer]: 
+                    - textbox [ref=e162]
+                    - textbox [ref=e164]
+                    - textbox [ref=e166]
+                    - generic [ref=e168]:
+                      - textbox [ref=e169]
+                      - button [ref=e170] [cursor=pointer]:
+                        - generic [ref=e171] [cursor=pointer]: 
+                    - generic [ref=e173]:
+                      - textbox [ref=e174]
+                      - button [ref=e175] [cursor=pointer]:
+                        - generic [ref=e176] [cursor=pointer]: 
+                    - generic [ref=e178]:
+                      - textbox [ref=e179]
+                      - button [ref=e180] [cursor=pointer]:
+                        - generic [ref=e181] [cursor=pointer]: 
+                    - textbox [ref=e183]
+                    - textbox [ref=e185]
+                    - textbox [ref=e187]
+                    - textbox [ref=e189]
+                    - textbox [ref=e191]
+                    - textbox [ref=e193]
+                    - textbox [ref=e196]
+                    - textbox [ref=e198]
+                    - textbox [ref=e200]
+      - contentinfo [ref=e201]:
+        - generic [ref=e204]:
+          - img "Project Center Logo" [ref=e206]
+          - generic [ref=e207]:
+            - link "Terms of Use" [ref=e209] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-website-terms-use
+            - img [ref=e211]
+            - link "Privacy Notice" [ref=e213] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-tm-privacy-statement-and-terms-use
+            - img [ref=e215]
+            - link "Service Desk" [ref=e217] [cursor=pointer]:
+              - /url: https://synh.service-now.com/
+            - img [ref=e219]
+            - link "Project Compass" [ref=e221] [cursor=pointer]:
+              - /url: https://synh.sharepoint.com/sites/theprojectcompass/Clinical/Systems/Pages/PDC.aspx
+            - img [ref=e223]
+            - generic [ref=e224]: © 2025 Syneos Health. All Rights Reserved
+        - link "Start of page" [ref=e226] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=e227] [cursor=pointer]: 
+```

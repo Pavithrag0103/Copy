@@ -1,0 +1,211 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "RESOURCING Project Center" [ref=e6] [cursor=pointer]:
+        - /url: "f?p=1204:10:704052610372588:::::"
+        - generic [ref=e7] [cursor=pointer]:
+          - img [ref=e9] [cursor=pointer]
+          - img [ref=e11] [cursor=pointer]
+          - generic [ref=e12] [cursor=pointer]:
+            - generic [ref=e13] [cursor=pointer]: RESOURCING
+            - generic [ref=e14] [cursor=pointer]: Project Center
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Resourcing" [ref=e20]:
+                - /url: "#"
+        - button "Switch to" [ref=e21] [cursor=pointer]:
+          - img [ref=e22] [cursor=pointer]
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "QA" [ref=e26] [cursor=pointer]:
+              - /url: "#action$a-dialog-open?url=f%3Fp%3D1204%3A5%3A704052610372588%26p_dialog_cs%3DL4XpcsUsu63H4-dAHy9bnIl2phJ-pzKZ1JeyMVGUmgfr1KxMC2VMUx3oC4AmEpve25vDGuPM5z_NcZvqSuMkXg&appId=1204&pageId=5&tmpl=MODAL_DIALOG&title=APEX%20APP%20Attributes&h=auto&w=720&mxw=960&isModal=true&dlgCls=&pageCls=&trgEl=apex.gPageContext%24"
+              - generic [ref=e27] [cursor=pointer]: QA
+          - listitem [ref=e28]
+          - listitem [ref=e29]:
+            - button "PG" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31] [cursor=pointer]: PG
+              - generic [ref=e32] [cursor=pointer]: 
+    - generic [ref=e45]:
+      - img [ref=e47] [cursor=pointer]
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link "Home" [ref=e52] [cursor=pointer]:
+            - /url: "f?p=1204:10:704052610372588:::::"
+          - text: /
+        - listitem [ref=e53]:
+          - heading "My Pools" [level=1] [ref=e54]
+  - generic [ref=e56]:
+    - navigation "Application":
+      - tree "Main Navigation":
+        - group:
+          - generic [ref=e57] [cursor=pointer]: 
+          - generic [ref=e58] [cursor=pointer]: 
+          - generic [ref=e59] [cursor=pointer]: 
+          - generic [ref=e60] [cursor=pointer]: 
+          - generic [ref=e61] [cursor=pointer]: 
+          - generic [ref=e62] [cursor=pointer]: 
+          - generic [ref=e63] [cursor=pointer]: 
+          - generic [ref=e64] [cursor=pointer]: 
+          - generic [ref=e65] [cursor=pointer]: 
+          - generic [ref=e66] [cursor=pointer]: 
+          - generic [ref=e67] [cursor=pointer]: 
+          - generic [ref=e68] [cursor=pointer]: 
+          - generic [ref=e69] [cursor=pointer]: 
+          - generic [ref=e70] [cursor=pointer]: 
+          - generic [ref=e71] [cursor=pointer]: 
+          - generic [ref=e72] [cursor=pointer]: 
+          - generic [ref=e73] [cursor=pointer]: 
+          - generic [ref=e74] [cursor=pointer]: 
+    - generic [ref=e76]:
+      - main [ref=e77]:
+        - generic [ref=e80]:
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "OVERVIEW" [ref=e87] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e89] [cursor=pointer]: 
+                - generic [ref=e90] [cursor=pointer]: OVERVIEW
+            - listitem [ref=e91]:
+              - link "HOME" [ref=e92] [cursor=pointer]:
+                - /url: f?p=1204:10:704052610372588:::10::&cs=30N_JsDie1LH53CuIpypdQ7tZZMtw8VdKoembTvZvyxKelv0LIxquboha41kz0aLVllEQAX_WOi1bUHx5lsODyA
+                - generic [ref=e94] [cursor=pointer]: 
+                - generic [ref=e95] [cursor=pointer]: HOME
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "All Projects" [ref=e98] [cursor=pointer]:
+                    - /url: f?p=1204:10:704052610372588:::10::&cs=30N_JsDie1LH53CuIpypdQ7tZZMtw8VdKoembTvZvyxKelv0LIxquboha41kz0aLVllEQAX_WOi1bUHx5lsODyA
+                    - generic [ref=e99] [cursor=pointer]: All Projects
+                - listitem [ref=e100]:
+                  - link "My Projects" [ref=e101] [cursor=pointer]:
+                    - /url: f?p=1204:135:704052610372588:::135::&cs=3cWGHKLKVOSbRs_x1OtejWRmEZCNRPuUSI4pWwnEL3adBWNGfe7ifGC2y1m0JmPMXdkX7QhfZIw3M3mDzIGk7FQ
+                    - generic [ref=e102] [cursor=pointer]: My Projects
+                - listitem [ref=e103]:
+                  - link "Assignment Notifications" [ref=e104] [cursor=pointer]:
+                    - /url: f?p=1204:3:704052610372588:::3::&cs=3JaiZaEeVo9voQal2Xt-hoNsCIxFtlEVTu2o-woNRjsQA5JDep21hnIK3LNUP6UDdbYFsnRrAinXMJd-xuTGdRg
+                    - generic [ref=e105] [cursor=pointer]: Assignment Notifications
+                - listitem [ref=e106]:
+                  - link "My Requests" [ref=e107] [cursor=pointer]:
+                    - /url: "f?p=1204:127:704052610372588:::::"
+                    - generic [ref=e108] [cursor=pointer]: My Requests
+                - listitem [ref=e109]:
+                  - link "HR Actions" [ref=e110] [cursor=pointer]:
+                    - /url: "f?p=1204:139:704052610372588:::::"
+                    - generic [ref=e111] [cursor=pointer]: HR Actions
+                - listitem [ref=e112]:
+                  - link "My Pools" [ref=e113] [cursor=pointer]:
+                    - /url: "f?p=1204:130:704052610372588:::::"
+                    - generic [ref=e114] [cursor=pointer]: My Pools
+            - listitem [ref=e115]:
+              - link "DEMAND" [ref=e116] [cursor=pointer]:
+                - /url: "f?p=1204:10:704052610372588:::::"
+                - generic [ref=e118] [cursor=pointer]: 
+                - generic [ref=e119] [cursor=pointer]: DEMAND
+            - listitem [ref=e120]:
+              - link "REQUESTS" [ref=e121] [cursor=pointer]:
+                - /url: f?p=1204:36:704052610372588:::36::&cs=3481OEqf7VaP9GSVYm5i1ca4XT5caMOzO2acN_5ekCf6yY5nOiV3bL5jlh8Fkzxd70HtOr3WsLz1acG-5s_n8Aw
+                - generic [ref=e123] [cursor=pointer]: 
+                - generic [ref=e124] [cursor=pointer]: REQUESTS
+            - listitem [ref=e125]:
+              - link "DIRECT ASSIGN" [ref=e126] [cursor=pointer]:
+                - /url: "f?p=1204:118:704052610372588:::::"
+                - generic [ref=e129] [cursor=pointer]: DIRECT ASSIGN
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - link "OVER ASSIGNED RESOURCES" [ref=e134] [cursor=pointer]:
+                    - /url: "f?p=1204:130:704052610372588:::::"
+                    - generic [ref=e135] [cursor=pointer]: OVER ASSIGNED RESOURCES
+                - listitem [ref=e136]:
+                  - link "UNDER ASSIGNED RESOURCES" [ref=e137] [cursor=pointer]:
+                    - /url: "f?p=1204:131:704052610372588:::::"
+                    - generic [ref=e138] [cursor=pointer]: UNDER ASSIGNED RESOURCES
+                - listitem [ref=e139]:
+                  - link "PENDING CONVERSIONS" [ref=e140] [cursor=pointer]:
+                    - /url: "f?p=1204:132:704052610372588:::::"
+                    - generic [ref=e141] [cursor=pointer]: PENDING CONVERSIONS
+                - listitem [ref=e142]:
+                  - link "EMAIL ACKNOWLEDGEMENTS" [ref=e143] [cursor=pointer]:
+                    - /url: "f?p=1204:133:704052610372588:::::"
+                    - generic [ref=e144] [cursor=pointer]: EMAIL ACKNOWLEDGEMENTS
+              - generic:
+                - generic:  
+            - generic [ref=e147]:
+              - generic [ref=e151]:
+                - generic:
+                  - generic: Pool
+                - generic [ref=e154]:
+                  - combobox "Pool" [active] [ref=e155]: Biometrics Technical Services-Clinical Coder-APAC
+                  - button [ref=e156] [cursor=pointer]:
+                    - generic [ref=e157] [cursor=pointer]: 
+              - region "Under Assigned Resources" [ref=e161]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - generic [ref=e165]:
+                      - search "Search bar of Under Assigned Resources" [ref=e166]:
+                        - generic [ref=e168]:
+                          - button "Select columns to search" [ref=e170] [cursor=pointer]:
+                            - generic [ref=e171] [cursor=pointer]: 
+                          - searchbox "Search Report" [ref=e174]
+                          - button "Go" [ref=e176] [cursor=pointer]:
+                            - generic [ref=e177] [cursor=pointer]: Go
+                        - generic [ref=e178]:
+                          - generic [ref=e179]:
+                            - generic [ref=e180]: Rows
+                            - combobox "Rows" [ref=e181]:
+                              - option "1"
+                              - option "5"
+                              - option "10" [selected]
+                              - option "15"
+                              - option "20"
+                              - option "25"
+                              - option "50"
+                              - option "100"
+                              - option "1000"
+                              - option "All"
+                          - button "Actions" [ref=e183] [cursor=pointer]:
+                            - text: Actions
+                            - generic [ref=e184] [cursor=pointer]: 
+                      - region "Buttons next to search bar of Under Assigned Resources" [ref=e185]:
+                        - button "RESET" [ref=e186] [cursor=pointer]:
+                          - generic [ref=e187] [cursor=pointer]: 
+                          - generic [ref=e188] [cursor=pointer]: RESET
+                          - text: 
+                    - region "Data view of Under Assigned Resources" [ref=e190]:
+                      - region "Message" [ref=e191]:
+                        - generic [ref=e193]: 
+                        - generic [ref=e194]: No Data Found.
+                  - alert [ref=e195]:
+                    - generic [ref=e197]: Processing
+      - contentinfo [ref=e198]:
+        - generic [ref=e201]:
+          - img "Project Center Logo" [ref=e203]
+          - generic [ref=e204]:
+            - link "Terms of Use" [ref=e206] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-website-terms-use
+            - img [ref=e208]
+            - link "Privacy Notice" [ref=e210] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-tm-privacy-statement-and-terms-use
+            - img [ref=e212]
+            - link "Service Desk" [ref=e214] [cursor=pointer]:
+              - /url: https://synh.service-now.com/
+            - img [ref=e216]
+            - link "Project Compass" [ref=e218] [cursor=pointer]:
+              - /url: https://synh.sharepoint.com/sites/theprojectcompass/Clinical/Systems/Pages/PDC.aspx
+            - img [ref=e220]
+            - generic [ref=e221]: © 2025 Syneos Health. All Rights Reserved
+        - link "Start of page" [ref=e223] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=e224] [cursor=pointer]: 
+  - text:        ...       
+  - log [ref=e226]
+  - log [ref=e227]
+  - status [ref=e228]: Grid row sequence 1.
+```

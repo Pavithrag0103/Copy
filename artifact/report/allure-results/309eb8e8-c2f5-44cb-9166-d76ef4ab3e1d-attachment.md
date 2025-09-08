@@ -1,0 +1,133 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "RESOURCING Project Center" [ref=e6] [cursor=pointer]:
+        - /url: "f?p=1204:10:711344032829838:::::"
+        - generic [ref=e7] [cursor=pointer]:
+          - img [ref=e9] [cursor=pointer]
+          - img [ref=e11] [cursor=pointer]
+          - generic [ref=e12] [cursor=pointer]:
+            - generic [ref=e13] [cursor=pointer]: RESOURCING
+            - generic [ref=e14] [cursor=pointer]: Project Center
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Resourcing" [ref=e20]:
+                - /url: "#"
+        - button "Switch to" [ref=e21] [cursor=pointer]:
+          - img [ref=e22] [cursor=pointer]
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "QA" [ref=e26] [cursor=pointer]:
+              - /url: "#action$a-dialog-open?url=f%3Fp%3D1204%3A5%3A711344032829838%26p_dialog_cs%3D4YcMy2_rPWQaZ-kCXY22EIqts0AXsXpKQSGx4GrxV3GRcoZq3w7XUVDvXGMKp6DQ6Ymn3K0_IUF-BC6lkohAEg&appId=1204&pageId=5&tmpl=MODAL_DIALOG&title=APEX%20APP%20Attributes&h=auto&w=720&mxw=960&isModal=true&dlgCls=&pageCls=&trgEl=apex.gPageContext%24"
+              - generic [ref=e27] [cursor=pointer]: QA
+          - listitem [ref=e28]
+          - listitem [ref=e29]:
+            - button "PG" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31] [cursor=pointer]: PG
+              - generic [ref=e32] [cursor=pointer]: 
+    - list [ref=e48]:
+      - listitem [ref=e49]:
+        - link "Home" [ref=e50] [cursor=pointer]:
+          - /url: "f?p=1204:10:711344032829838:::::"
+          - generic [ref=e51] [cursor=pointer]: Home
+      - listitem [ref=e52]:
+        - link "Admin" [ref=e53] [cursor=pointer]:
+          - /url: "f?p=1204:13:711344032829838:::::"
+          - generic [ref=e54] [cursor=pointer]: Admin
+  - generic [ref=e55]:
+    - text:                  
+    - generic [ref=e57]:
+      - main [ref=e58]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link " Application Data Library ADL is the place where we access all the Master data." [ref=e73] [cursor=pointer]:
+              - /url: "f?p=1204:14:711344032829838:::::"
+              - generic [ref=e74] [cursor=pointer]:
+                - generic [ref=e76] [cursor=pointer]: 
+                - generic [ref=e77] [cursor=pointer]: Application Data Library
+                - text: 
+              - generic [ref=e79] [cursor=pointer]: ADL is the place where we access all the Master data.
+          - listitem [ref=e80]:
+            - link " Manage User Provisioning and managing access for users" [ref=e82] [cursor=pointer]:
+              - /url: "f?p=1200:2::::::"
+              - generic [ref=e83] [cursor=pointer]:
+                - generic [ref=e85] [cursor=pointer]: 
+                - generic [ref=e86] [cursor=pointer]: Manage User
+                - text: 
+              - generic [ref=e88] [cursor=pointer]: Provisioning and managing access for users
+          - listitem [ref=e89]:
+            - link " Skill Scoring To Calculate the Skill Scoring" [ref=e91] [cursor=pointer]:
+              - /url: "f?p=1204:43:711344032829838:::::"
+              - generic [ref=e92] [cursor=pointer]:
+                - generic [ref=e94] [cursor=pointer]: 
+                - generic [ref=e95] [cursor=pointer]: Skill Scoring
+                - text: 
+              - generic [ref=e97] [cursor=pointer]: To Calculate the Skill Scoring
+          - listitem [ref=e98]:
+            - link " Resource Pool Management To Manage all the Resource Pool Requests" [ref=e100] [cursor=pointer]:
+              - /url: "f?p=1204:28:711344032829838:::::"
+              - generic [ref=e101] [cursor=pointer]:
+                - generic [ref=e103] [cursor=pointer]: 
+                - generic [ref=e104] [cursor=pointer]: Resource Pool Management
+                - text: 
+              - generic [ref=e106] [cursor=pointer]: To Manage all the Resource Pool Requests
+          - listitem [ref=e107]:
+            - link " Demand Summary Thresholds Managing demand summary thresholds" [ref=e109] [cursor=pointer]:
+              - /url: "f?p=1204:20:711344032829838:::::"
+              - generic [ref=e110] [cursor=pointer]:
+                - generic [ref=e112] [cursor=pointer]: 
+                - generic [ref=e113] [cursor=pointer]: Demand Summary Thresholds
+                - text: 
+              - generic [ref=e115] [cursor=pointer]: Managing demand summary thresholds
+          - listitem [ref=e116]:
+            - link " Email Configuration Manage Email Templates" [ref=e118] [cursor=pointer]:
+              - /url: "f?p=1204:154:711344032829838:::::"
+              - generic [ref=e119] [cursor=pointer]:
+                - generic [ref=e121] [cursor=pointer]: 
+                - generic [ref=e122] [cursor=pointer]: Email Configuration
+                - text: 
+              - generic [ref=e124] [cursor=pointer]: Manage Email Templates
+          - listitem [ref=e125]:
+            - link " Project Team Email Configuration Map Role to Recipients" [ref=e127] [cursor=pointer]:
+              - /url: "f?p=1204:160:711344032829838:::::"
+              - generic [ref=e128] [cursor=pointer]:
+                - generic [ref=e130] [cursor=pointer]: 
+                - generic [ref=e131] [cursor=pointer]: Project Team Email Configuration
+                - text: 
+              - generic [ref=e133] [cursor=pointer]: Map Role to Recipients
+          - listitem [ref=e134]:
+            - link " CV Email Configuration Map Roles for which a CV must be sent" [ref=e136] [cursor=pointer]:
+              - /url: f?p=1204:170:711344032829838:::170::&cs=3hFgNiFSYKCMyC9rpMSnVGhYZjE4agJ9RhxL5HvwZ87blbJ4KF_UyKdGesbIJUtT2B1pbTBwUNfjKHahiOhx36A
+              - generic [ref=e137] [cursor=pointer]:
+                - generic [ref=e139] [cursor=pointer]: 
+                - generic [ref=e140] [cursor=pointer]: CV Email Configuration
+                - text: 
+              - generic [ref=e142] [cursor=pointer]: Map Roles for which a CV must be sent
+      - contentinfo [ref=e143]:
+        - generic [ref=e146]:
+          - img "Project Center Logo" [ref=e148]
+          - generic [ref=e149]:
+            - link "Terms of Use" [ref=e151] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-website-terms-use
+            - img [ref=e153]
+            - link "Privacy Notice" [ref=e155] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-tm-privacy-statement-and-terms-use
+            - img [ref=e157]
+            - link "Service Desk" [ref=e159] [cursor=pointer]:
+              - /url: https://synh.service-now.com/
+            - img [ref=e161]
+            - link "Project Compass" [ref=e163] [cursor=pointer]:
+              - /url: https://synh.sharepoint.com/sites/theprojectcompass/Clinical/Systems/Pages/PDC.aspx
+            - img [ref=e165]
+            - generic [ref=e166]: © 2025 Syneos Health. All Rights Reserved
+        - link "Start of page" [ref=e168] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=e169] [cursor=pointer]: 
+```

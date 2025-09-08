@@ -1,0 +1,318 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "RESOURCING Project Center" [ref=e6] [cursor=pointer]:
+        - /url: "f?p=1204:10:713876533102846:::::"
+        - generic [ref=e7] [cursor=pointer]:
+          - img [ref=e9] [cursor=pointer]
+          - img [ref=e11] [cursor=pointer]
+          - generic [ref=e12] [cursor=pointer]:
+            - generic [ref=e13] [cursor=pointer]: RESOURCING
+            - generic [ref=e14] [cursor=pointer]: Project Center
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Resourcing" [ref=e20]:
+                - /url: "#"
+        - button "Switch to" [ref=e21] [cursor=pointer]:
+          - img [ref=e22] [cursor=pointer]
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "QA" [ref=e26] [cursor=pointer]:
+              - /url: "#action$a-dialog-open?url=f%3Fp%3D1204%3A5%3A713876533102846%26p_dialog_cs%3DYIXGs-Zxs8kxETfNnEA0rGmk-vgzdcnHamrN8_1_lnH4M8slnTkq6FblD92M8ZrzV_vlpBcU9DDuJ3FySNmCOQ&appId=1204&pageId=5&tmpl=MODAL_DIALOG&title=APEX%20APP%20Attributes&h=auto&w=720&mxw=960&isModal=true&dlgCls=&pageCls=&trgEl=apex.gPageContext%24"
+              - generic [ref=e27] [cursor=pointer]: QA
+          - listitem [ref=e28]
+          - listitem [ref=e29]:
+            - button "PG" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31] [cursor=pointer]: PG
+              - generic [ref=e32] [cursor=pointer]: 
+    - generic [ref=e34]:
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Home" [ref=e50] [cursor=pointer]:
+            - /url: "f?p=1204:10:713876533102846:::::"
+            - generic [ref=e51] [cursor=pointer]: Home
+        - listitem [ref=e52]:
+          - link "Admin" [ref=e53] [cursor=pointer]:
+            - /url: "f?p=1204:13:713876533102846:::::"
+            - generic [ref=e54] [cursor=pointer]: Admin
+      - generic [ref=e65]:
+        - img [ref=e67] [cursor=pointer]
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - heading "Home" [level=1] [ref=e72]
+            - text: /
+          - listitem [ref=e73]:
+            - heading "All Projects" [level=1] [ref=e74]
+  - generic [ref=e76]:
+    - navigation "Application":
+      - generic [ref=e77] [cursor=pointer]: 
+      - generic [ref=e78] [cursor=pointer]: 
+      - generic [ref=e79] [cursor=pointer]: 
+      - generic [ref=e80] [cursor=pointer]: 
+      - generic [ref=e81] [cursor=pointer]: 
+      - generic [ref=e82] [cursor=pointer]: 
+      - generic [ref=e83] [cursor=pointer]: 
+      - generic [ref=e84] [cursor=pointer]: 
+      - generic [ref=e85] [cursor=pointer]: 
+      - generic [ref=e86] [cursor=pointer]: 
+      - generic [ref=e87] [cursor=pointer]: 
+      - generic [ref=e88] [cursor=pointer]: 
+      - generic [ref=e89] [cursor=pointer]: 
+      - generic [ref=e90] [cursor=pointer]: 
+      - generic [ref=e91] [cursor=pointer]: 
+      - generic [ref=e92] [cursor=pointer]: 
+      - generic [ref=e93] [cursor=pointer]: 
+      - generic [ref=e94] [cursor=pointer]: 
+    - generic [ref=e96]:
+      - main [ref=e97]:
+        - generic [ref=e100]:
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - link "OVERVIEW" [ref=e107] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e109] [cursor=pointer]: 
+                - generic [ref=e110] [cursor=pointer]: OVERVIEW
+            - listitem [ref=e111]:
+              - link "HOME" [ref=e112] [cursor=pointer]:
+                - /url: f?p=1204:10:713876533102846:::10::&cs=34W8yV59km3fHbZoTZK48fuxu3DWdJwluKfkRjU4fOGbnDQqnOhytFDZfmEhy_0VJTgPhMFQaOavMrdpl18wzcg
+                - generic [ref=e114] [cursor=pointer]: 
+                - generic [ref=e115] [cursor=pointer]: HOME
+              - list [ref=e116]:
+                - listitem [ref=e117]:
+                  - link "All Projects" [ref=e118] [cursor=pointer]:
+                    - /url: f?p=1204:10:713876533102846:::10::&cs=34W8yV59km3fHbZoTZK48fuxu3DWdJwluKfkRjU4fOGbnDQqnOhytFDZfmEhy_0VJTgPhMFQaOavMrdpl18wzcg
+                    - generic [ref=e119] [cursor=pointer]: All Projects
+                - listitem [ref=e120]:
+                  - link "My Projects" [ref=e121] [cursor=pointer]:
+                    - /url: f?p=1204:135:713876533102846:::135::&cs=3rbS9H7purvvNiSyOWtY9zkb1OPpEfNKS6ikjFQgD8T9QM-jei50f7cyts4epmNNRaW3ZnjYic6VsIH_3oYLW0w
+                    - generic [ref=e122] [cursor=pointer]: My Projects
+                - listitem [ref=e123]:
+                  - link "Assignment Notifications" [ref=e124] [cursor=pointer]:
+                    - /url: f?p=1204:3:713876533102846:::3::&cs=3rKJlj6NWVgjXP8EvVoHbtcz5abN0Wd-jTOJTnEr8thMH1jeLqzE5N7Lu53imYtv7NV2TNVm-yuJq9ZihoFDqTw
+                    - generic [ref=e125] [cursor=pointer]: Assignment Notifications
+                - listitem [ref=e126]:
+                  - link "My Requests" [ref=e127] [cursor=pointer]:
+                    - /url: "f?p=1204:127:713876533102846:::::"
+                    - generic [ref=e128] [cursor=pointer]: My Requests
+                - listitem [ref=e129]:
+                  - link "HR Actions" [ref=e130] [cursor=pointer]:
+                    - /url: "f?p=1204:139:713876533102846:::::"
+                    - generic [ref=e131] [cursor=pointer]: HR Actions
+                - listitem [ref=e132]:
+                  - link "My Pools" [ref=e133] [cursor=pointer]:
+                    - /url: "f?p=1204:130:713876533102846:::::"
+                    - generic [ref=e134] [cursor=pointer]: My Pools
+            - listitem [ref=e135]:
+              - link "DEMAND" [ref=e136] [cursor=pointer]:
+                - /url: "f?p=1204:10:713876533102846:::::"
+                - generic [ref=e138] [cursor=pointer]: 
+                - generic [ref=e139] [cursor=pointer]: DEMAND
+            - listitem [ref=e140]:
+              - link "REQUESTS" [ref=e141] [cursor=pointer]:
+                - /url: f?p=1204:36:713876533102846:::36::&cs=3EZWYbo0Rw6R7bL-MZjTIjCt41LtMCqwm3eQLwWp94rYFHmViNe58R3RkIKRmqT_maM6QSvnL8xuYDqSMtooIYQ
+                - generic [ref=e143] [cursor=pointer]: 
+                - generic [ref=e144] [cursor=pointer]: REQUESTS
+            - listitem [ref=e145]:
+              - link "DIRECT ASSIGN" [ref=e146] [cursor=pointer]:
+                - /url: "f?p=1204:118:713876533102846:::::"
+                - generic [ref=e149] [cursor=pointer]: DIRECT ASSIGN
+          - region "Filter Criteria" [ref=e151]:
+            - heading "Filter Criteria" [level=2] [ref=e154]
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e161]:
+                  - generic [ref=e163]: P-Code
+                  - combobox "P-Code" [ref=e167]
+                - generic [ref=e170]:
+                  - generic [ref=e172]: Sponsor Name
+                  - combobox "Sponsor Name" [ref=e176]
+                - generic [ref=e178]:
+                  - button "CLEAR SEARCH CRITERIA" [ref=e179] [cursor=pointer]:
+                    - generic [ref=e180] [cursor=pointer]: CLEAR SEARCH CRITERIA
+                  - button "Search" [ref=e181] [cursor=pointer]:
+                    - generic [ref=e182] [cursor=pointer]: Search
+              - region "All Projects" [ref=e185]:
+                - generic [ref=e190]:
+                  - generic [ref=e191]: Post-Award
+                  - generic [ref=e193]:
+                    - switch [ref=e195]
+                    - generic [ref=e197]: Pre-Award
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - search "Search bar of All Projects" [ref=e202]:
+                      - generic [ref=e204]:
+                        - button "Select columns to search" [ref=e206] [cursor=pointer]:
+                          - generic [ref=e207] [cursor=pointer]: 
+                        - searchbox "Search Report" [ref=e210]
+                        - button "Go" [ref=e212] [cursor=pointer]:
+                          - generic [ref=e213] [cursor=pointer]: Go
+                      - generic [ref=e214]:
+                        - generic [ref=e215]:
+                          - generic [ref=e216]: Rows
+                          - combobox "Rows" [ref=e217]:
+                            - option "1"
+                            - option "5"
+                            - option "10" [selected]
+                            - option "15"
+                            - option "20"
+                            - option "25"
+                            - option "50"
+                            - option "100"
+                            - option "All"
+                        - button "Actions" [ref=e219] [cursor=pointer]:
+                          - text: Actions
+                          - generic [ref=e220] [cursor=pointer]: 
+                    - region "Buttons next to search bar of All Projects" [ref=e221]:
+                      - button "RESET" [ref=e222] [cursor=pointer]:
+                        - generic [ref=e223] [cursor=pointer]: 
+                        - generic [ref=e224] [cursor=pointer]: RESET
+                        - text: 
+                  - region "Data view of All Projects" [ref=e226]:
+                    - table "All Projects, Report = Primary Default, View = Report" [ref=e228]:
+                      - rowgroup [ref=e229]:
+                        - row "P-Code Sponsor Project Status Start Date End Date Estimated End Date LOB | Owning BU | Owning Sub BU TA | Indication | Sub Indication Study Phase Study Population" [ref=e230]:
+                          - cell "P-Code" [ref=e231]:
+                            - link "P-Code" [ref=e232] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "Sponsor" [ref=e233]:
+                            - link "Sponsor" [ref=e234] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "Project Status" [ref=e235]:
+                            - link "Project Status" [ref=e236] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "Start Date" [ref=e237]:
+                            - link "Start Date" [ref=e238] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "End Date" [ref=e239]:
+                            - link "End Date" [ref=e240] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "Estimated End Date" [ref=e241]:
+                            - link "Estimated End Date" [ref=e242] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "LOB | Owning BU | Owning Sub BU" [ref=e243]:
+                            - link "LOB | Owning BU | Owning Sub BU" [ref=e244] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "TA | Indication | Sub Indication" [ref=e245]:
+                            - link "TA | Indication | Sub Indication" [ref=e246] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "Study Phase" [ref=e247]:
+                            - link "Study Phase" [ref=e248] [cursor=pointer]:
+                              - /url: "#"
+                          - cell "Study Population" [ref=e249]:
+                            - link "Study Population" [ref=e250] [cursor=pointer]:
+                              - /url: "#"
+                        - row "7073634 Taiho Oncology, Inc Clinical | 0046 - Illingworth | Illingworth Oncology | Blood & blood forming malignancies | Non-Hodgkin lymphoma (NHL) 1 Adults" [ref=e251]:
+                          - cell "7073634" [ref=e252]:
+                            - link "7073634" [ref=e253] [cursor=pointer]:
+                              - /url: f?p=1204:18:713876533102846:APEX_CLONE_SESSION:::P0_PROJECT_CODE,P18_YEAR_DROPDOWN:%5C7073634%5C,1&cs=1gP3ziI3i8ouc9KJgHYodpXN5W61csS4JEojhyaW8Wavb47e5YQKpfCupsK17COfdyttkPMqoWkna2nk50ydTOg
+                          - cell "Taiho Oncology, Inc" [ref=e254]
+                          - cell [ref=e255]
+                          - cell [ref=e256]
+                          - cell [ref=e257]
+                          - cell [ref=e258]
+                          - cell "Clinical | 0046 - Illingworth | Illingworth" [ref=e259]
+                          - cell "Oncology | Blood & blood forming malignancies | Non-Hodgkin lymphoma (NHL)" [ref=e260]
+                          - cell "1" [ref=e261]
+                          - cell "Adults" [ref=e262]
+                        - row "7018956 Blueprint Medicines Corporation Approved 01-Sep-2020 20-Nov-2027 20-Nov-2027 Clinical | RWLP | RWLP Oncology | Solid tumors | Gastrointestinal stromal tumors (GIST) 4 Rare Disease" [ref=e263]:
+                          - cell "7018956" [ref=e264]:
+                            - link "7018956" [ref=e265] [cursor=pointer]:
+                              - /url: f?p=1204:18:713876533102846:APEX_CLONE_SESSION:::P0_PROJECT_CODE,P18_YEAR_DROPDOWN:%5C7018956%5C,1&cs=16rmQGqvUHnAhlFKs8F-EJ5eO20gZgs1o_a3BqDzoU9_dWMilqe-2Z3pJri17mqusbMHJWmLLDB2cPiwK4meJcA
+                          - cell "Blueprint Medicines Corporation" [ref=e266]
+                          - cell "Approved" [ref=e267]:
+                            - generic [ref=e268]: Approved
+                          - cell "01-Sep-2020" [ref=e269]:
+                            - generic [ref=e270]: 01-Sep-2020
+                          - cell "20-Nov-2027" [ref=e271]:
+                            - generic [ref=e272]: 20-Nov-2027
+                          - cell "20-Nov-2027" [ref=e273]:
+                            - generic [ref=e274]: 20-Nov-2027
+                          - cell "Clinical | RWLP | RWLP" [ref=e275]
+                          - cell "Oncology | Solid tumors | Gastrointestinal stromal tumors (GIST)" [ref=e276]
+                          - cell "4" [ref=e277]
+                          - cell "Rare Disease" [ref=e278]
+                        - row "7041203 Teva Branded Pharmaceutical Products R&d, Inc. Approved 23-Nov-2022 22-Feb-2027 31-May-2027 Clinical | Clinical Development | Clinical Development Respiratory | Chronic obstructive airways disease | Asthma 3 Adults" [ref=e279]:
+                          - cell "7041203" [ref=e280]:
+                            - link "7041203" [ref=e281] [cursor=pointer]:
+                              - /url: f?p=1204:18:713876533102846:APEX_CLONE_SESSION:::P0_PROJECT_CODE,P18_YEAR_DROPDOWN:%5C7041203%5C,1&cs=1nI2uyxpnAAtnOBKcYfmRrHPfuvEhZNq2UsxWOkgJd5mI2AmCc5dcvFBw6A2McVZa3eSfPdAFa9fO0fpUu2ZqMg
+                          - cell "Teva Branded Pharmaceutical Products R&d, Inc." [ref=e282]
+                          - cell "Approved" [ref=e283]:
+                            - generic [ref=e284]: Approved
+                          - cell "23-Nov-2022" [ref=e285]:
+                            - generic [ref=e286]: 23-Nov-2022
+                          - cell "22-Feb-2027" [ref=e287]:
+                            - generic [ref=e288]: 22-Feb-2027
+                          - cell "31-May-2027" [ref=e289]:
+                            - generic [ref=e290]: 31-May-2027
+                          - cell "Clinical | Clinical Development | Clinical Development" [ref=e291]
+                          - cell "Respiratory | Chronic obstructive airways disease | Asthma" [ref=e292]
+                          - cell "3" [ref=e293]
+                          - cell "Adults" [ref=e294]
+                        - row "7014321 Pfizer Inc. Approved 15-Jul-2020 28-Dec-2030 28-Dec-2030 | Strategic Accounts | | |" [ref=e295]:
+                          - cell "7014321" [ref=e296]:
+                            - link "7014321" [ref=e297] [cursor=pointer]:
+                              - /url: f?p=1204:18:713876533102846:APEX_CLONE_SESSION:::P0_PROJECT_CODE,P18_YEAR_DROPDOWN:%5C7014321%5C,1&cs=1gKdRqmFpzUSvPoTOcoj5UGDWpbHIbDmR7epC1chBtHnuySo922qfClZWhiYxmKnnem-rMDlT205GPmZX1sw4Qw
+                          - cell "Pfizer Inc." [ref=e298]
+                          - cell "Approved" [ref=e299]:
+                            - generic [ref=e300]: Approved
+                          - cell "15-Jul-2020" [ref=e301]:
+                            - generic [ref=e302]: 15-Jul-2020
+                          - cell "28-Dec-2030" [ref=e303]:
+                            - generic [ref=e304]: 28-Dec-2030
+                          - cell "28-Dec-2030" [ref=e305]:
+                            - generic [ref=e306]: 28-Dec-2030
+                          - cell "| Strategic Accounts |" [ref=e307]
+                          - cell "| |" [ref=e308]
+                          - cell [ref=e309]
+                          - cell [ref=e310]
+                        - row "7073653 Eli Lilly & Co. Clinical | 0043 - Clinical Operations FSP | Clinical Development Services Not Available | Not Available | Not Available Not Available Not Available" [ref=e311]:
+                          - cell "7073653" [ref=e312]:
+                            - link "7073653" [ref=e313] [cursor=pointer]:
+                              - /url: f?p=1204:18:713876533102846:APEX_CLONE_SESSION:::P0_PROJECT_CODE,P18_YEAR_DROPDOWN:%5C7073653%5C,1&cs=1PjvLlRgYjd2ADnzvPDjwI8E69edg71L1ss6TK2KoACNHbHULKqN5pIN3HQNGAZ7cZIvZ8YFqUf7JIovD6Dsmgg
+                          - cell "Eli Lilly & Co." [ref=e314]
+                          - cell [ref=e315]
+                          - cell [ref=e316]
+                          - cell [ref=e317]
+                          - cell [ref=e318]
+                          - cell "Clinical | 0043 - Clinical Operations FSP | Clinical Development Services" [ref=e319]
+                          - cell "Not Available | Not Available | Not Available" [ref=e320]
+                          - cell "Not Available" [ref=e321]
+                          - cell "Not Available" [ref=e322]
+                    - region "Pagination of All Projects" [ref=e323]:
+                      - list [ref=e324]:
+                        - listitem [ref=e325]:
+                          - generic [ref=e326]: "Total rows: 5"
+                        - listitem [ref=e327]:
+                          - combobox [ref=e328]:
+                            - option "1 (1 - 5)" [selected]
+              - generic:
+                - generic:    
+      - contentinfo [ref=e329]:
+        - generic [ref=e332]:
+          - img "Project Center Logo" [ref=e334]
+          - generic [ref=e335]:
+            - link "Terms of Use" [ref=e337] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-website-terms-use
+            - img [ref=e339]
+            - link "Privacy Notice" [ref=e341] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-tm-privacy-statement-and-terms-use
+            - img [ref=e343]
+            - link "Service Desk" [ref=e345] [cursor=pointer]:
+              - /url: https://synh.service-now.com/
+            - img [ref=e347]
+            - link "Project Compass" [ref=e349] [cursor=pointer]:
+              - /url: https://synh.sharepoint.com/sites/theprojectcompass/Clinical/Systems/Pages/PDC.aspx
+            - img [ref=e351]
+            - generic [ref=e352]: © 2025 Syneos Health. All Rights Reserved
+        - link "Start of page" [ref=e354] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=e355] [cursor=pointer]: 
+  - text:        ...        ...
+```
