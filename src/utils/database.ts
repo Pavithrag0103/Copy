@@ -3,7 +3,7 @@
 import oracledb from 'oracledb';
 import {env_configRM} from "./config";
 
-oracledb.initOracleClient({ libDir: 'C:\\oracle\\instantclient_23_8' });
+oracledb.initOracleClient({ libDir: '/opt/Oracle/instantclient_23_3' });
 
 interface OracleQueryResult {
   rowCount: number;
