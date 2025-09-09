@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "RESOURCING Project Center" [ref=e6] [cursor=pointer]:
+        - /url: "f?p=1204:10:716642582478075:::::"
+        - generic [ref=e7] [cursor=pointer]:
+          - img [ref=e9] [cursor=pointer]
+          - img [ref=e11] [cursor=pointer]
+          - generic [ref=e12] [cursor=pointer]:
+            - generic [ref=e13] [cursor=pointer]: RESOURCING
+            - generic [ref=e14] [cursor=pointer]: Project Center
+      - generic [ref=e15]:
+        - generic:
+          - navigation
+        - button "Switch to" [ref=e16] [cursor=pointer]:
+          - img [ref=e17] [cursor=pointer]
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "QA":
+              - /url: "#action$a-dialog-open?url=f%3Fp%3D1204%3A5%3A716642582478075%26p_dialog_cs%3DlP_fNeScl5naVYxywczFDybfOIyTWzXbkUB1ML_OagFgmbBW3vuN0SFsyGZaPywmKw2VliDpggo_6RxkgTzy-g&appId=1204&pageId=5&tmpl=MODAL_DIALOG&title=APEX%20APP%20Attributes&h=auto&w=720&mxw=960&isModal=true&dlgCls=&pageCls=&trgEl=apex.gPageContext%24"
+              - generic: QA
+          - listitem [ref=e21]
+          - listitem [ref=e22]:
+            - button "PG" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24] [cursor=pointer]: PG
+              - generic [ref=e25] [cursor=pointer]: 
+    - generic [ref=e27]:
+      - generic:
+        - generic:
+          - region "Menu and tabs"
+      - generic [ref=e38]:
+        - img [ref=e40] [cursor=pointer]
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - link "Home" [ref=e45] [cursor=pointer]:
+              - /url: "f?p=1204:10:716642582478075:::::"
+            - text: /
+          - listitem [ref=e46]:
+            - heading "Assignments" [level=1] [ref=e47]
+  - generic [ref=e49]:
+    - navigation "Application":
+      - generic "Main Navigation":
+        - list:
+          - listitem:
+            - generic [ref=e50]: 
+          - listitem:
+            - generic [ref=e51]: 
+          - listitem:
+            - generic [ref=e52]: 
+          - listitem:
+            - generic [ref=e53]: 
+          - listitem:
+            - generic [ref=e54]: 
+          - listitem:
+            - generic [ref=e55]: 
+          - listitem:
+            - generic [ref=e56]: 
+          - listitem:
+            - generic [ref=e57]: 
+          - listitem:
+            - generic [ref=e58]: 
+          - listitem:
+            - generic [ref=e59]: 
+          - listitem:
+            - generic [ref=e60]: 
+          - listitem:
+            - generic [ref=e61]: 
+          - listitem:
+            - generic [ref=e62]: 
+          - listitem:
+            - generic [ref=e63]: 
+          - listitem:
+            - generic [ref=e64]: 
+          - listitem:
+            - generic [ref=e65]: 
+          - listitem:
+            - generic [ref=e66]: 
+          - listitem:
+            - generic [ref=e67]: 
+    - generic [ref=e69]:
+      - main [ref=e70]:
+        - generic [ref=e73]:
+          - region "Nav_Menu" [ref=e75]:
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - link "OVERVIEW" [ref=e80] [cursor=pointer]:
+                  - /url: ""
+                  - generic [ref=e82] [cursor=pointer]: 
+                  - generic [ref=e83] [cursor=pointer]: OVERVIEW
+              - listitem [ref=e84]:
+                - link "HOME" [ref=e85] [cursor=pointer]:
+                  - /url: f?p=1204:10:716642582478075:::10::&cs=3UEAxHCgb553rOaBMNmdp9LPTt3yTpL9UcWmINiUNjJrfpv3f11rgkJyModua6nAJ09ELp7qcHG_QXAAJtg2uHQ
+                  - generic [ref=e87] [cursor=pointer]: 
+                  - generic [ref=e88] [cursor=pointer]: HOME
+              - listitem [ref=e89]:
+                - link "DEMAND" [ref=e90] [cursor=pointer]:
+                  - /url: "f?p=1204:10:716642582478075:::::"
+                  - generic [ref=e92] [cursor=pointer]: 
+                  - generic [ref=e93] [cursor=pointer]: DEMAND
+              - listitem [ref=e94]:
+                - link "REQUESTS" [ref=e95] [cursor=pointer]:
+                  - /url: f?p=1204:36:716642582478075:::36::&cs=3FQoKtWat9oCjoIva4rjZH608iL5zj1mYXx6ty7mM9YJPtNycH7J2VNBc45hvQ3O1TwcA44VhEcRgtB8qPz4afQ
+                  - generic [ref=e97] [cursor=pointer]: 
+                  - generic [ref=e98] [cursor=pointer]: REQUESTS
+              - listitem [ref=e99]:
+                - link "DIRECT ASSIGN" [ref=e100] [cursor=pointer]:
+                  - /url: "f?p=1204:118:716642582478075:::::"
+                  - generic [ref=e103] [cursor=pointer]: DIRECT ASSIGN
+                - list [ref=e104]:
+                  - listitem [ref=e105]:
+                    - link "Assignments" [ref=e106] [cursor=pointer]:
+                      - /url: f?p=1204:118:716642582478075:::118::&cs=3iCIOn7-gmKy791OZ027JnGFadiqdr1WNCX5v7K_yCzAF4Dwd_rzrF3iolUqt4ZSbAvGedCm6bWP-Qu4IJmcNcw
+                      - generic [ref=e107] [cursor=pointer]: Assignments
+          - generic [ref=e110]:
+            - region "Assignment" [ref=e113]:
+              - generic [ref=e115]:
+                - heading "Assignment" [level=2] [ref=e116]:
+                  - generic [ref=e117] [cursor=pointer]: Assignment
+                - button "" [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119] [cursor=pointer]: 
+                - text: 
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:      
+            - region "Assignment Details" [ref=e123]:
+              - heading "Assignment Details" [level=2] [ref=e126]
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - img [ref=e131]
+                  - generic [ref=e135]: Select a resource to display the details
+                - region "Assignment Grid-Resource" [ref=e139]:
+                  - generic [ref=e141]:
+                    - button "SUBMIT" [ref=e146] [cursor=pointer]:
+                      - generic [ref=e147] [cursor=pointer]: SUBMIT
+                    - generic [ref=e148]:
+                      - checkbox [ref=e149] [cursor=pointer]
+                      - textbox [ref=e152]
+                      - textbox [ref=e154]
+                      - textbox [ref=e156]
+                      - textbox [ref=e158]
+                      - textbox [ref=e160]
+                      - textbox [ref=e162]
+                      - textbox [ref=e164]
+                      - textbox [ref=e166]
+                      - textbox [ref=e168]
+                      - textbox [ref=e170]
+                      - textbox [ref=e172]
+                      - textbox [ref=e174]
+                      - textbox [ref=e176]
+                      - generic [ref=e178]:
+                        - textbox [ref=e179]
+                        - button [ref=e180] [cursor=pointer]:
+                          - generic [ref=e181] [cursor=pointer]: 
+            - region "Assignment Details" [ref=e184]:
+              - heading "Assignment Details" [level=2] [ref=e187]
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - img [ref=e192]
+                  - generic [ref=e196]: Select a role to display the details
+                - region "Assignment Grid -Project" [ref=e200]:
+                  - generic [ref=e202]:
+                    - button "SUBMIT" [ref=e207] [cursor=pointer]:
+                      - generic [ref=e208] [cursor=pointer]: SUBMIT
+                    - generic [ref=e209]:
+                      - checkbox [ref=e210] [cursor=pointer]
+                      - textbox [ref=e213]
+                      - textbox [ref=e215]
+                      - textbox [ref=e217]
+                      - textbox [ref=e219]
+                      - textbox [ref=e221]
+                      - textbox [ref=e223]
+                      - textbox [ref=e225]
+                      - textbox [ref=e227]
+                      - textbox [ref=e229]
+                      - textbox [ref=e231]
+                      - textbox [ref=e233]
+                      - textbox [ref=e235]
+                      - textbox [ref=e237]
+                      - generic [ref=e239]:
+                        - textbox [ref=e240]
+                        - button [ref=e241] [cursor=pointer]:
+                          - generic [ref=e242] [cursor=pointer]: 
+      - contentinfo [ref=e243]:
+        - generic [ref=e246]:
+          - img "Project Center Logo" [ref=e248]
+          - generic [ref=e249]:
+            - link "Terms of Use" [ref=e251] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-website-terms-use
+            - img [ref=e253]
+            - link "Privacy Notice" [ref=e255] [cursor=pointer]:
+              - /url: https://www.syneoshealth.com/syneos-health-tm-privacy-statement-and-terms-use
+            - img [ref=e257]
+            - link "Service Desk" [ref=e259] [cursor=pointer]:
+              - /url: https://synh.service-now.com/
+            - img [ref=e261]
+            - link "Project Compass" [ref=e263] [cursor=pointer]:
+              - /url: https://synh.sharepoint.com/sites/theprojectcompass/Clinical/Systems/Pages/PDC.aspx
+            - img [ref=e265]
+            - generic [ref=e266]: © 2025 Syneos Health. All Rights Reserved
+        - link "Start of page" [ref=e268] [cursor=pointer]:
+          - /url: "#top"
+          - text: 
+  - generic [ref=e269]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:         
+```

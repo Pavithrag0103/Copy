@@ -1,76 +1,83 @@
 import { test, expect } from '../../../fixtures/actions.fixture';
-import {env_configRM} from "../../../utils/config";
+import { env_configRM } from "../../../utils/config";
 
 test.describe('Resource Management :: Data Sanity Suite', () => {
+  test.setTimeout(60000);
   test('Data Sanity', async ({ rmDatabaseActions }) => {
-      test.info().annotations.push(
-        { type: 'tag', description: 'sanity' },
-        { type: 'tag', description: 'data' }
-      );
-      let execStatus = true;
+    test.info().annotations.push(
+      { type: 'tag', description: 'sanity' },
+      { type: 'tag', description: 'data' }
+    );
+    let execStatus = true;
 
-      await test.step('Check there are no Employees with NULL Hire Date', async () => {
-        if(!await rmDatabaseActions.checkEmployeeHireDate())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Employees with NULL Hire Date');
-        }
-      });
-      await test.step('Check there are no Employees with NULL Country', async () => {
-        if(!await rmDatabaseActions.checkEmployeeCountry())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Employees with NULL Hire Date');
-        }
-      });
-      await test.step('Check there are no Employees with NULL Region', async () => {
-        if(!await rmDatabaseActions.checkEmployeeRegion())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Employees with NULL Region');
-        }
-      });
-      await test.step('Check there are no Rehired Employees with Incorrect Hire Date', async () => {
-        if(!await rmDatabaseActions.checkEmployeeRehired())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Employees with Incorrect Hire Date');
-        }
-      });
-      await test.step('Check there are Termed Employees with Incorrect Status', async () => {
-        if(!await rmDatabaseActions.checkEmployeeTerminated())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Employees with Incorrect Status');
-        }
-      });
-      await test.step('Check there are no Projects with NULL UPC', async () => {
-        if(!await rmDatabaseActions.checkProjectUPC())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Projects with NULL UPC');
-        }
-      });
-      await test.step('Check there are no Assignments with NULL Type', async () => {
-        if(!await rmDatabaseActions.checkAssignmentType())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Assignments with NULL Type');
-        }
-      });
-      await test.step('Check general execution of the suite', async () => {
-        expect(execStatus).toBe(true);
-      });
-
-      await test.step('Check there are demand present with Incorrect Status', async () => {
-        if(!await rmDatabaseActions.checkState())
-        {
-          execStatus = execStatus && false;
-          console.warn('There are Employees with Incorrect Status');
-        }
-      });
-
+    await test.step('Check there are no Employees with NULL Hire Date', async () => {
+      const count = await rmDatabaseActions.checkEmployeeHireDate();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Employees with NULL Hire Date`);
+      }
     });
+
+    await test.step('Check there are no Employees with NULL Country', async () => {
+      const count = await rmDatabaseActions.checkEmployeeCountry();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Employees with NULL Country`);
+      }
+    });
+
+    await test.step('Check there are no Employees with NULL Region', async () => {
+      const count = await rmDatabaseActions.checkEmployeeRegion();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Employees with NULL Region`);
+      }
+    });
+
+    await test.step('Check there are no Rehired Employees with Incorrect Hire Date', async () => {
+      const count = await rmDatabaseActions.checkEmployeeRehired();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Rehired Employees with Incorrect Hire Date`);
+      }
+    });
+
+    await test.step('Check there are Termed Employees with Incorrect Status', async () => {
+      const count = await rmDatabaseActions.checkEmployeeTerminated();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Termed Employees with Incorrect Status`);
+      }
+    });
+
+    await test.step('Check there are no Projects with NULL UPC', async () => {
+      const count = await rmDatabaseActions.checkProjectUPC();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Projects with NULL UPC`);
+      }
+    });
+
+    await test.step('Check there are no Assignments with NULL Type', async () => {
+      const count = await rmDatabaseActions.checkAssignmentType();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Assignments with NULL Type`);
+      }
+    });
+
+    await test.step('Check there are demands present with Incorrect Status', async () => {
+      const count = await rmDatabaseActions.checkState();
+      if (count > 0) {
+        execStatus = false;
+        console.warn(`There are ${count} Demands with Incorrect Status`);
+      }
+    });
+
+    await test.step('Check general execution of the suite', async () => {
+      expect(execStatus).toBe(true);
+    });
+  });
 });
 
 test.describe('Resource Management :: UI Sanity Suite', () => {
