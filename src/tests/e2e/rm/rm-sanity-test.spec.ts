@@ -61,6 +61,15 @@ test.describe('Resource Management :: Data Sanity Suite', () => {
       await test.step('Check general execution of the suite', async () => {
         expect(execStatus).toBe(true);
       });
+
+      await test.step('Check there are demand present with Incorrect Status', async () => {
+        if(!await rmDatabaseActions.checkState())
+        {
+          execStatus = execStatus && false;
+          console.warn('There are Employees with Incorrect Status');
+        }
+      });
+
     });
 });
 
